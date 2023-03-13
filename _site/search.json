@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "BlogProb",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nMar 7, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nMar 4, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nMar 7, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nMar 7, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nMar 4, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nMar 4, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nMar 4, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nMar 4, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nMar 4, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSankey diagrams and how to create\n\n\nNSC-R Tidy Tuesday March 2022\n\n\n\n\n\n\n\n\n\nMar 9, 2022\n\n\nTim Verlaan\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWrangling dates-time data\n\n\nNSC-R Tidy Tuesday February 2022\n\n\n\n\n\n\n\n\n\nFeb 22, 2022\n\n\nAlex Trinidad\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResearch of Board Games\n\n\nNSC-R Tidy Tuesday February 2022\n\n\n\n\n\n\n\n\n\nFeb 8, 2022\n\n\nAsier Moreva\n\n\n\n\n\n\n  \n\n\n\n\nExploration and visulization of Starbuck coffee data\n\n\n\n\n\n\n\nexploration\n\n\nvisualization\n\n\n\n\n\n\n\n\n\n\n\nJan 22, 2022\n\n\nHarlow Malloc\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -26,5 +26,103 @@
     "title": "Welcome To My Blog",
     "section": "",
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/01_TT/01_TT_202201.html",
+    "href": "posts/01_TT/01_TT_202201.html",
+    "title": "Exploration and visulization of Starbuck coffee data",
+    "section": "",
+    "text": "On 11 January 2022 and 25 January 2022 Sam Langton gave NSCR Tidy Tuesday presentations on the exploration and visualization of Starbuck coffee use data.In this document both presentations are combined [@langton_nsc-r_2022].\n\n\nHere you can find it on the NSCR- website. Here is the First presentation. Here is the Second presentation"
+  },
+  {
+    "objectID": "posts/01_TT/01_TT_202201.html#load-libraries.",
+    "href": "posts/01_TT/01_TT_202201.html#load-libraries.",
+    "title": "Exploration and visulization of Starbuck coffee data",
+    "section": "Load libraries.",
+    "text": "Load libraries.\n\nlibrary(readr)\nlibrary(dplyr)\nlibrary(tidyr)\nlibrary(stringr)\nlibrary(ggplot2)"
+  },
+  {
+    "objectID": "posts/01_TT/01_TT_202201.html#load-data",
+    "href": "posts/01_TT/01_TT_202201.html#load-data",
+    "title": "Exploration and visulization of Starbuck coffee data",
+    "section": "Load data",
+    "text": "Load data\nThe data are loaded directly from the TidyTuesday github page.\n\nstar_df <- read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-12-21/starbucks.csv')"
+  },
+  {
+    "objectID": "posts/01_TT/01_TT_202201.html#initial-explore.",
+    "href": "posts/01_TT/01_TT_202201.html#initial-explore.",
+    "title": "Exploration and visulization of Starbuck coffee data",
+    "section": "Initial explore.",
+    "text": "Initial explore.\nHere are some explorative commands you can use: - star-df opens the dataset and shows you the variables.\n- names(star_df)gives you the names of the 15 variables.\n- glimpse(star_df)shows you the number of rows (often particpants) and columns (often variables) and also informs you about the kind of variables.\n- dim(star_df) informs you about number of rows and columns.\n- sum(is.na(star_df)) show you the number of missing variables.\n\nstar_df\n\n# A tibble: 1,147 x 15\n   product_n~1 size   milk  whip serv_~2 calor~3 total~4 satur~5 trans~6 chole~7\n   <chr>       <chr> <dbl> <dbl>   <dbl>   <dbl>   <dbl>   <dbl> <chr>     <dbl>\n 1 brewed cof~ short     0     0     236       3     0.1       0 0             0\n 2 brewed cof~ tall      0     0     354       4     0.1       0 0             0\n 3 brewed cof~ gran~     0     0     473       5     0.1       0 0             0\n 4 brewed cof~ venti     0     0     591       5     0.1       0 0             0\n 5 brewed cof~ short     0     0     236       3     0.1       0 0             0\n 6 brewed cof~ tall      0     0     354       4     0.1       0 0             0\n 7 brewed cof~ gran~     0     0     473       5     0.1       0 0             0\n 8 brewed cof~ venti     0     0     591       5     0.1       0 0             0\n 9 brewed cof~ short     0     0     236       3     0.1       0 0             0\n10 brewed cof~ tall      0     0     354       4     0.1       0 0             0\n# ... with 1,137 more rows, 5 more variables: sodium_mg <dbl>,\n#   total_carbs_g <dbl>, fiber_g <chr>, sugar_g <dbl>, caffeine_mg <dbl>, and\n#   abbreviated variable names 1: product_name, 2: serv_size_m_l, 3: calories,\n#   4: total_fat_g, 5: saturated_fat_g, 6: trans_fat_g, 7: cholesterol_mg\n\nnames(star_df)\n\n [1] \"product_name\"    \"size\"            \"milk\"            \"whip\"           \n [5] \"serv_size_m_l\"   \"calories\"        \"total_fat_g\"     \"saturated_fat_g\"\n [9] \"trans_fat_g\"     \"cholesterol_mg\"  \"sodium_mg\"       \"total_carbs_g\"  \n[13] \"fiber_g\"         \"sugar_g\"         \"caffeine_mg\"    \n\nglimpse(star_df)\n\nRows: 1,147\nColumns: 15\n$ product_name    <chr> \"brewed coffee - dark roast\", \"brewed coffee - dark ro~\n$ size            <chr> \"short\", \"tall\", \"grande\", \"venti\", \"short\", \"tall\", \"~\n$ milk            <dbl> 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, ~\n$ whip            <dbl> 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ~\n$ serv_size_m_l   <dbl> 236, 354, 473, 591, 236, 354, 473, 591, 236, 354, 473,~\n$ calories        <dbl> 3, 4, 5, 5, 3, 4, 5, 5, 3, 4, 5, 5, 3, 4, 5, 5, 35, 50~\n$ total_fat_g     <dbl> 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1,~\n$ saturated_fat_g <dbl> 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,~\n$ trans_fat_g     <chr> \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\",~\n$ cholesterol_mg  <dbl> 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10,~\n$ sodium_mg       <dbl> 5, 10, 10, 10, 5, 10, 10, 10, 5, 5, 5, 5, 5, 5, 5, 5, ~\n$ total_carbs_g   <dbl> 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 5, ~\n$ fiber_g         <chr> \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\",~\n$ sugar_g         <dbl> 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 5, ~\n$ caffeine_mg     <dbl> 130, 193, 260, 340, 15, 20, 25, 30, 155, 235, 310, 410~\n\ndim(star_df)\n\n[1] 1147   15\n\nsum(is.na(star_df))\n\n[1] 0"
+  },
+  {
+    "objectID": "posts/01_TT/01_TT_202201.html#subset-brewed-coffee.",
+    "href": "posts/01_TT/01_TT_202201.html#subset-brewed-coffee.",
+    "title": "Exploration and visulization of Starbuck coffee data",
+    "section": "Subset brewed coffee.",
+    "text": "Subset brewed coffee.\nWhen you want to look at a specific subset with the product_name brewed coffee for example you can define this as:.\n\nbrew_df <- star_df |>\n  filter(str_detect(product_name, \"brewed coffee\"))"
+  },
+  {
+    "objectID": "posts/01_TT/01_TT_202201.html#quick-clean-for-the-plot.",
+    "href": "posts/01_TT/01_TT_202201.html#quick-clean-for-the-plot.",
+    "title": "Exploration and visulization of Starbuck coffee data",
+    "section": "Quick clean for the plot.",
+    "text": "Quick clean for the plot.\n\nMake another subsample and call it big_ones_df. -Use only the variables product_name, size, milk, whip and calories-trans_fat_g).\n\nUse only when sizeis grande.\nchange whip into a character variable.\nRecode categories of milkfrom 0, 1, 2, 3, 4 5 into no milk, non-fat, 2% fat, soy, coconut, whole.\n\n\nbig_ones_df <- star_df |>\n  select(product_name, size, milk, whip, calories:trans_fat_g) |> \n  filter(size == \"grande\") |>\n  mutate(whip_char = as.character(whip),\n         milk_labs = recode(milk,\n                            `0` = \"no milk\",\n                            `1` = \"non-fat\",\n                            `2` = \"2% fat\",\n                            `3` = \"soy\",\n                            `4` = \"coconut\",\n                            `5` = \"whole\")) # These categories are on the tt git page."
+  },
+  {
+    "objectID": "posts/01_TT/01_TT_202201.html#what-is-the-relationship-between-calories-and-fat",
+    "href": "posts/01_TT/01_TT_202201.html#what-is-the-relationship-between-calories-and-fat",
+    "title": "Exploration and visulization of Starbuck coffee data",
+    "section": "What is the relationship between calories and fat?",
+    "text": "What is the relationship between calories and fat?\nCan you plot between calories(y) and total_fat_g (x)? Show the diffence on whip_char'and show it for the sixmilk-labs` you recoded.\n\nmy_plot_gg <- ggplot(data = big_ones_df) +\n  geom_point(mapping = aes(x = total_fat_g, y = calories, fill = whip_char),\n             size = 2, alpha = 0.8, pch = 21, colour = \"black\") +\n  facet_wrap(~milk_labs) +\n  labs(title = \"Starbucks: fat, calories and milk types\",\n       caption = \"Data notes: grande drink size | Data source: tidytuesday | NSC-R workshop 11 Jan 2022\",\n       fill = NULL, x = \"total fat (grams)\") +\n  scale_fill_manual(values = c(\"#036635\", \"#b5651d\"),\n                      labels = c(\"Without whipped cream\", \"With whipped cream\")) +\n  theme_bw() +\n  theme(legend.position = \"bottom\",\n        axis.text = element_text(size = 6),\n        axis.title = element_text(size = 8),\n        plot.title = element_text(hjust = 0.5),\n        plot.caption = element_text(size = 4))\nmy_plot_gg\n\n\n\n\nStarbucks coffeetypes"
+  },
+  {
+    "objectID": "posts/01_TT/01_TT_202201.html#save.",
+    "href": "posts/01_TT/01_TT_202201.html#save.",
+    "title": "Exploration and visulization of Starbuck coffee data",
+    "section": "Save.",
+    "text": "Save.\nSave the plot on your computer as a png-file. Here is place in a projectmap and a submap images which I made on my computer. Change the path if necessary for your computer.\n\nggsave(my_plot_gg, file = \"images/starbucks_plot.png\",\n       height = 12, width = 12, unit = \"cm\")"
+  },
+  {
+    "objectID": "posts/01_TT/01_TT_202201.html#counting-frequencies",
+    "href": "posts/01_TT/01_TT_202201.html#counting-frequencies",
+    "title": "Exploration and visulization of Starbuck coffee data",
+    "section": "Counting frequencies",
+    "text": "Counting frequencies\nFor counting frequencies you always can use different methods. We show some of them.\nThis is the R base-way for counting the variable whipfor example.\n\ntable(star_df$whip)\n\n\n  0   1 \n864 283 \n\n\nThis is the grouping-way.\n\nstar_df |>\n  group_by(whip) |> \n  tally() \n\n# A tibble: 2 x 2\n   whip     n\n  <dbl> <int>\n1     0   864\n2     1   283\n\n\nThis is a better way (thanks Wim!).\n\nfreq_df <- count(star_df, whip)\nfreq_df\n\n# A tibble: 2 x 2\n   whip     n\n  <dbl> <int>\n1     0   864\n2     1   283"
+  },
+  {
+    "objectID": "posts/01_TT/01_TT_202201.html#basic-cleaning",
+    "href": "posts/01_TT/01_TT_202201.html#basic-cleaning",
+    "title": "Exploration and visulization of Starbuck coffee data",
+    "section": "Basic cleaning",
+    "text": "Basic cleaning\nHere we do some basic cleaning. We select six variables and look only at variables of which the size is grande. We call this dataset star_clean.\n\nstar_clean_df <- star_df |>\n  select(product_name, size, milk, whip, calories, sugar_g) |>\n  filter(size == \"grande\")"
+  },
+  {
+    "objectID": "posts/01_TT/01_TT_202201.html#basic-plot",
+    "href": "posts/01_TT/01_TT_202201.html#basic-plot",
+    "title": "Exploration and visulization of Starbuck coffee data",
+    "section": "Basic plot",
+    "text": "Basic plot\nLet us plot it on different ways.The first three are similar.\n\nggplot(data = star_clean_df, mapping = aes(x = sugar_g, y = calories)) +\n  geom_point()\n\nggplot(data = star_clean_df) +\n  geom_point(mapping = aes(x = sugar_g, y = calories))\n\nggplot() +\n  geom_point(data = star_clean_df, mapping = aes(x = sugar_g, y = calories))\n\n\n\n\n\n\nFirst way\n\n\n\n\n\n\n\nSecond way\n\n\n\n\n\n\n\nThird way\n\n\n\n\n\n\nRelation between sugar and calories\n\n\n\n\nThen we plot the coffee of which the whipis 1.\n\nstar_clean_df |>\n  filter(whip == 1) |>\n  ggplot() +\n  geom_point(mapping = aes(x = sugar_g, y = calories))\n\n\n\n\nRelation between sugar and calories with coffee whip-1"
+  },
+  {
+    "objectID": "posts/01_TT/01_TT_202201.html#change-milk-class.",
+    "href": "posts/01_TT/01_TT_202201.html#change-milk-class.",
+    "title": "Exploration and visulization of Starbuck coffee data",
+    "section": "Change milk class.",
+    "text": "Change milk class.\nFor the next plot we first change the class of the variable milk into a character variable and save it as a different dataset.\n\nstar_clean_df <- star_clean_df |> \n  mutate(milk_char = as.character(milk))"
+  },
+  {
+    "objectID": "posts/01_TT/01_TT_202201.html#extend.",
+    "href": "posts/01_TT/01_TT_202201.html#extend.",
+    "title": "Exploration and visulization of Starbuck coffee data",
+    "section": "Extend.",
+    "text": "Extend.\nWe plot this new dataset on three different ways.\n\nggplot(data = star_clean_df) +\n  geom_point (mapping = aes(x = sugar_g, y = calories)) +\n  geom_smooth(mapping = aes(x = sugar_g, y = calories), method = \"lm\") +\n  facet_wrap(~milk_char)\n\nggplot(data = star_clean_df, mapping = aes(x = sugar_g, y = calories)) +\n  geom_point() +\n  geom_smooth(method = \"lm\") +\n  facet_wrap(vars(milk_char, whip))\n\n\nggplot(data = star_clean_df) +\n  geom_point(mapping = aes(x = sugar_g, y = calories, shape = milk_char, colour = milk_char))\n\n\n\n\n\n\nFirst way\n\n\n\n\n\n\n\nSecond way\n\n\n\n\n\n\n\nThird way\n\n\n\n\n\n\nRelation between sugar and calories with coffee whip-1"
+  },
+  {
+    "objectID": "posts/01_TT/01_TT_202201.html#reference",
+    "href": "posts/01_TT/01_TT_202201.html#reference",
+    "title": "Exploration and visulization of Starbuck coffee data",
+    "section": "Reference",
+    "text": "Reference"
   }
 ]

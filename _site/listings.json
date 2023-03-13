@@ -2,8 +2,17 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/01_TT/index.html",
       "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html"
+      "/posts/welcome/index.html",
+      "/posts/welcome - kopie/index.html",
+      "/posts/welcome - kopie (2)/index.html",
+      "/posts/welcome - kopie (3)/index.html",
+      "/posts/welcome - kopie (4)/index.html",
+      "/posts/04_TT/04_TT_202203.html",
+      "/posts/03_TT/03_TT_202202.html",
+      "/posts/02_TT/02_TT_202202.html",
+      "/posts/01_TT/01_TT_202201.html"
     ]
   }
 ]

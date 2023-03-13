@@ -1,10 +1,9 @@
 ---
 title: "Research of Board Games"
-subtitle: "NSC-R Tidy Tuesday February 2022"
-author: Asier Moreva
+author: "Asier Moreva"
 date: "2022-02-08"
-format:
-    html 
+categories: [exploration, visualization]
+image: "Screenshot1.png"
 ---
 
 ## Introduction

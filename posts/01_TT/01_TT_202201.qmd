@@ -1,6 +1,6 @@
 ---
 title: "Exploration and visualization of Starbuck coffee data"
-author: "Harlow Malloc"
+author: "Sam Langton"
 date: "2022-01-22"
 categories: [exploration, visualization]
 image: "Screenshot1.png"

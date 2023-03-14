@@ -1,11 +1,12 @@
 ---
 title: "Researching Spanish soccer data"
-subtitle: "NSC-R Tidy Tuesday March 2022"
 author: "Wim Bernasco"
 date: "2022-03-22"
-format:
-   html
+categories: [exploration, visualization]
 ---
+
+
+
 
 ## Introduction
 

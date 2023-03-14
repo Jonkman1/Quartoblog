@@ -70,9 +70,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -153,7 +153,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(10)</span></div><div class="category" data-category="analysis">analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="code">code <span class="quarto-category-count">(1)</span></div><div class="category" data-category="exploration">exploration <span class="quarto-category-count">(2)</span></div><div class="category" data-category="news">news <span class="quarto-category-count">(6)</span></div><div class="category" data-category="visualization">visualization <span class="quarto-category-count">(2)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(10)</span></div><div class="category" data-category="analysis">analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="code">code <span class="quarto-category-count">(1)</span></div><div class="category" data-category="exploration">exploration <span class="quarto-category-count">(4)</span></div><div class="category" data-category="news">news <span class="quarto-category-count">(6)</span></div><div class="category" data-category="visualization">visualization <span class="quarto-category-count">(4)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -382,13 +382,9 @@ Tristan O’Malley
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-listing-date-sort="1646780400000" data-listing-file-modified-sort="1676650331999" data-listing-reading-time-sort="1.29">
+<div class="quarto-post image-right" data-index="6" data-categories="exploration,visualization" data-listing-date-sort="1646780400000" data-listing-file-modified-sort="1678826854025" data-listing-reading-time-sort="1.29">
 <div class="thumbnail">
-<a href="./posts/04_TT/04_TT_202203.html">
-<div class="thumbnail-image">
-
-</div>
-</a><p><a href="./posts/04_TT/04_TT_202203.html"></a></p>
+<p><a href="./posts/04_TT/04_TT_202203.html"> <img src="./posts/04_TT/Screenshot.png" class="thumnail-image"> </a></p>
 </div>
 <div class="body">
 <a href="./posts/04_TT/04_TT_202203.html">
@@ -396,8 +392,18 @@ Tristan O’Malley
 Sankey diagrams and how to create
 </h3>
 <div class="listing-subtitle">
-NSC-R Tidy Tuesday March 2022
+
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('exploration'); return false;">
+exploration
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('visualization'); return false;">
+visualization
+</div>
+</div>
+<a href="./posts/04_TT/04_TT_202203.html">
 <div class="listing-description">
 In this meeting, Tim Verlaan explains what Sankey diagrams are, and how they can be created in R <span class="citation" data-cites="verlaan_nsc-rn_2022">[@verlaan_nsc-rn_2022]</span>
 </div>
@@ -414,13 +420,9 @@ Tim Verlaan
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-listing-date-sort="1645484400000" data-listing-file-modified-sort="1677527538067" data-listing-reading-time-sort="9.335">
+<div class="quarto-post image-right" data-index="7" data-categories="exploration,visualization" data-listing-date-sort="1645484400000" data-listing-file-modified-sort="1678826358201" data-listing-reading-time-sort="9.34">
 <div class="thumbnail">
-<a href="./posts/03_TT/03_TT_202202.html">
-<div class="thumbnail-image">
-
-</div>
-</a><p><a href="./posts/03_TT/03_TT_202202.html"></a></p>
+<p><a href="./posts/03_TT/03_TT_202202.html"> <img src="./posts/03_TT/Screenshot.png" class="thumnail-image"> </a></p>
 </div>
 <div class="body">
 <a href="./posts/03_TT/03_TT_202202.html">
@@ -428,8 +430,18 @@ Tim Verlaan
 Wrangling dates-time data
 </h3>
 <div class="listing-subtitle">
-NSC-R Tidy Tuesday February 2022
+
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('exploration'); return false;">
+exploration
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('visualization'); return false;">
+visualization
+</div>
+</div>
+<a href="./posts/03_TT/03_TT_202202.html">
 <div class="listing-description">
 The dataset for this Tidy Tuesday is about animal rescues! Alex Trinidad explores the temporal trends of animal rescues using lubridate package (Grolemund &amp; Wickham, 2011) <span class="citation" data-cites="trinidad_nsc-r_nodate">[@trinidad_nsc-r_nod…</span>
 </div>

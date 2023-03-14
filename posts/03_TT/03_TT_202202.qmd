@@ -1,10 +1,9 @@
 ---
 title: "Wrangling dates-time data"
-subtitle: "NSC-R Tidy Tuesday February 2022"
-author: Alex Trinidad
+author: "Alex Trinidad"
 date: "2022-02-22"
-format:
-    html 
+categories: [exploration, visualization]
+image: "Screenshot.png"
 ---
 
 ## Introduction
@@ -254,7 +253,7 @@ compdates <- data.frame(date = c(seq(ymd('2009-01-01'),
                                      ymd('2021-12-31'), by = '1 day')))
 ```
 
-How can I know the days that are missing? Create for this a data set with all the days 
+How can I know the days that are missing? Create for this a data set with all the days
 
 ```{r}
 #| warning: false
@@ -263,8 +262,8 @@ compdates <- data.frame(date = c(seq(ymd('2009-01-01'),
                                      ymd('2021-12-31'), by = '1 day')))
 ```
 
-
 Save missing dates
+
 ```{r}
 #| warning: false
 #| echo: true
@@ -272,9 +271,8 @@ missingdates <- anti_join(compdates, perday)
 ```
 
 Add missing dates to our data set.
-```
-fulldates <- rbind(perday, missingdates) #
-```
+
+    fulldates <- rbind(perday, missingdates) #
 
 This will give an error because we need the same arguments We need the same arguments
 
@@ -286,6 +284,7 @@ missingdates <- missingdates %>%
 ```
 
 Add now the missing dates to our data set
+
 ```{r}
 #| warning: false
 #| echo: true
@@ -301,7 +300,6 @@ table(duplicated(fulldates$date))
 ```
 
 Wim Bernasco's suggestion instead of using `anti_join()` and `rbind()`, use `left_join`.
-
 
 ```{r}
 #| warning: false
@@ -331,6 +329,7 @@ fulldates <- fulldates %>%
 ```
 
 What day of the week did it happen?
+
 ```{r}
 #| warning: false
 #| echo: true
@@ -376,6 +375,7 @@ fullcat <- rbind(cat, mdatecat) %>%
   mutate(animal_group_parent = "cat") %>% 
   replace(is.na(.),0)
 ```
+
 Dog now.
 
 ```{r}
@@ -393,7 +393,8 @@ fulldog <- rbind(dog, mdatedog) %>%
   replace(is.na(.),0)
 
 ```
-Bird now. 
+
+Bird now.
 
 ```{r}
 #| warning: false
@@ -410,7 +411,7 @@ fullbird <- rbind(bird, mdatebird) %>%
   replace(is.na(.),0)
 ```
 
-Three datasets together. 
+Three datasets together.
 
 ```{r}
 #| warning: false
@@ -418,8 +419,8 @@ Three datasets together.
 myfulldata <- rbind(fullcat,fulldog, fullbird)
 ```
 
-
 Dates by components
+
 ```{r}
 #| warning: false
 #| echo: true
@@ -431,9 +432,8 @@ myfulldata <- myfulldata %>%
          weekday = wday(date, label = TRUE))
 ```
 
-
-
 By day of the week
+
 ```{r}
 #| warning: false
 #| echo: true
@@ -443,6 +443,7 @@ bywday <- myfulldata %>%
 ```
 
 What levels are in weekday?
+
 ```{r}
 #| warning: false
 #| echo: true
@@ -450,12 +451,12 @@ levels(bywday$weekday)
 ```
 
 Order these levels.
+
 ```{r}
 #| warning: false
 #| echo: true
 levelorder <- c("Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun")
 ```
-
 
 ```{r}
 #| warning: false
@@ -475,13 +476,13 @@ ggplot(data = bywday) +
 ```
 
 By week of the year
+
 ```{r}
 #| warning: false
 #| echo: true
 myfulldata <- myfulldata %>% 
   mutate(weekyear = paste0(week,month,day))
 ```
-
 
 ```{r}
 #| warning: false
@@ -492,6 +493,7 @@ byweek <- myfulldata %>%
 ```
 
 Plot it.
+
 ```{r}
 #| warning: false
 #| echo: true
@@ -509,8 +511,8 @@ ggplot(data = byweek) +
   )
 ```
 
-
 By month of the year
+
 ```{r}
 #| warning: false
 #| echo: true
@@ -537,6 +539,7 @@ ggplot(data = bymonth) +
 ```
 
 By year
+
 ```{r}
 #| warning: false
 #| echo: true
@@ -544,7 +547,6 @@ byyear <- myfulldata %>%
   group_by(year,animal_group_parent) %>% 
   summarise(resc_counts = sum(resc_counts))
 ```
-
 
 ```{r}
 #| warning: false

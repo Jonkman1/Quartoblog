@@ -1,11 +1,11 @@
 ---
 title: "Sankey diagrams and how to create"
-subtitle: "NSC-R Tidy Tuesday March 2022"
-author: Tim Verlaan
+author: "Tim Verlaan"
 date: "2022-03-09"
-format:
-    html 
+categories: [exploration, visualization]
+image: "Screenshot.png"
 ---
+
 
 ## Introduction
 

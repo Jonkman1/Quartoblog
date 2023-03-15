@@ -1,9 +1,12 @@
 ---
 title: "Student mobility in Europe"
-subtitle: "NSC-R Tidy Tuesday November 2023"
 author: "Wim Bernasco"
 date: "2022-11-15"
+categories: [exploration, visualization]
+image: "Screenshot.png"
 ---
+
+
 
 ## Introduction
 In this workshop, Wim Bernasco explores a Tidy Tuesday dataset about the European Union Erasmus+ student mobility program. This dataset was used in the main Tidy Tuesday of week 10 in 2022. For more information on this data, including the codebook, see the [RForDataScience GitHub registry](https://github.com/rfordatascience/tidytuesday/blob/master/data/2022/2022-03-08/readme.md).

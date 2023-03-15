@@ -3,9 +3,8 @@ title: "Researching Spanish soccer data"
 author: "Wim Bernasco"
 date: "2022-03-22"
 categories: [exploration, visualization]
+image: "Screenshot.png"
 ---
-
-
 
 
 ## Introduction

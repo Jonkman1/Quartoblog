@@ -6,7 +6,6 @@ categories: [exploration, visualization]
 image: "Screenshot.png"
 ---
 
-
 ## Introduction
 
 In this meeting, Tim Verlaan explains what Sankey diagrams are, and how they can be created in R [@verlaan_nsc-rn_2022]

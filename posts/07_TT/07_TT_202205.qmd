@@ -1,11 +1,11 @@
 ---
 title: "Revenue and expenditure in sport"
-subtitle: "NSC-R Tidy Tuesday May 2022"
-date: "2022-03-22"
 author: "Alex Trinidad"
-format:
-    html
+date: "2022-04-22"
+categories: [exploration, visualization]
+image: "Screenshot.png"
 ---
+
 
 ## Introduction
 
@@ -742,6 +742,5 @@ myselection %>%
        y = "Women Revenue", fill = "USD") +
   facet_wrap(vars(sports), scales = "free_y")
 ```
-
 
 ## References

@@ -1,11 +1,12 @@
 ---
 title: "Development of crime in population"
-subtitle: "NSC-R Tidy Tuesday May 2022"
 author: "Wim Bernasco"
 date: "2022-05-22"
-format:
-    html
+categories: [exploration, visualization]
+image: "Screenshot.png"
 ---
+
+
 
 ## Introduction
 

@@ -1,0 +1,1331 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.269">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Wim Bernasco">
+<meta name="dcterms.date" content="2022-11-15">
+
+<title>Quartoblog - Student mobility in Europe</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.scss">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Quartoblog</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html">
+ <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/"><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com"><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Student mobility in Europe</h1>
+            <p class="subtitle lead">NSC-R Tidy Tuesday November 2023</p>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Wim Bernasco </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">November 15, 2022</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
+
+
+
+
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>In this workshop, Wim Bernasco explores a Tidy Tuesday dataset about the European Union Erasmus+ student mobility program. This dataset was used in the main Tidy Tuesday of week 10 in 2022. For more information on this data, including the codebook, see the <a href="https://github.com/rfordatascience/tidytuesday/blob/master/data/2022/2022-03-08/readme.md">RForDataScience GitHub registry</a>.</p>
+<p>In this workshop, the focus is on exploring, analyzing, and maybe visualizing student streams between countries. Different descriptive questions will be answered <span class="citation" data-cites="bernasco_nsc-r_2022-6">[@bernasco_nsc-r_2022-6]</span>.</p>
+<p><a href="https://nscrweb.netlify.app/posts/2022-11-15-nsc-r-tidy-tuesday/">Here</a> you find the link to the NSC-R Tidy Tuesday page.</p>
+</section>
+<section id="get-started" class="level2">
+<h2 class="anchored" data-anchor-id="get-started">Get started</h2>
+<p>Install uninstalled packages <code>tidyverse</code>, <code>here</code> and <code>tidytuesdayR</code>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span> <span class="fu">require</span>(<span class="st">"tidyverse"</span>)) <span class="fu">install.packages</span>(</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">pkgs =</span> <span class="st">"tidyverse"</span>, <span class="at">repos =</span> <span class="st">"http://cran.us.r-project.org"</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span> <span class="fu">require</span>(<span class="st">"here"</span>)) <span class="fu">install.packages</span>(</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">pkgs =</span> <span class="st">"here"</span>, <span class="at">repos =</span> <span class="st">"http://cran.us.r-project.org"</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span> <span class="fu">require</span>(<span class="st">"tidytuesdayR"</span>)) <span class="fu">install.packages</span>(</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">pkgs =</span> <span class="st">"tidytuesdayR"</span>, <span class="at">repos =</span> <span class="st">"http://cran.us.r-project.org"</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span> <span class="fu">require</span>(<span class="st">"broom"</span>)) <span class="fu">install.packages</span>(</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  <span class="at">pkgs =</span> <span class="st">"broom"</span>, <span class="at">repos =</span> <span class="st">"http://cran.us.r-project.org"</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span> <span class="fu">require</span>(<span class="st">"circlize"</span>)) <span class="fu">install.packages</span>(</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>  <span class="at">pkgs =</span> <span class="st">"circlize"</span>, <span class="at">repos =</span> <span class="st">"http://cran.us.r-project.org"</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span> <span class="fu">require</span>(<span class="st">"igraph"</span>)) <span class="fu">install.packages</span>(</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>  <span class="at">pkgs =</span> <span class="st">"igraph"</span>, <span class="at">repos =</span> <span class="st">"http://cran.us.r-project.org"</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Load the required libraries</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(broom)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(here)</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidytuesdayR)</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(circlize)</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(igraph)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Load the datafile For information <a href="https://github.com/rfordatascience/tidytuesday/blob/master/data/2022/2022-03-08/readme.md">see</a></p>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The ‘participants’ field is a frequency weight!</p>
+</div>
+</div>
+<p>Open the dataset</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> <span class="fu">tt_load</span>(<span class="dv">2022</span>, <span class="at">week =</span> <span class="dv">10</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    Downloading file 1 of 1: `erasmus.csv`</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>erasmus <span class="ot">&lt;-</span> tuesdata<span class="sc">$</span>erasmus</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>There are two additional ‘helper’ datafiles used used in this script: <code>country_names.csv</code>: The full names and EU-status of the countries <code>adjacency.csv</code> : Pairs of countries that are adjacent (share borders)</p>
+<p>I will address some of the following <em>descriptive questions</em>:<br>
+- How many students studied abroad?<br>
+- What are the top-10 receiving countries?<br>
+- What are the top-10 sending countries?<br>
+- Which are the 10 most frequent origin-destination country combinations?<br>
+- Are reverse flows (the flow from A to B and the flow from B to A) correlated?</p>
+<p>The following <em>modeling questions</em> will be answered:<br>
+- How does total number of students from country A to country B depend on the total number of student from A and the total number of students from B?<br>
+- Do adjacent countries attract more or less students than non-adjacent countries?</p>
+<p>If time permits some <em>visualization questions</em> will be answered:<br>
+- Are there some ways of visualizing mobility data?</p>
+</section>
+<section id="exploration-and-preparation" class="level2">
+<h2 class="anchored" data-anchor-id="exploration-and-preparation">Exploration and preparation</h2>
+<p>First we explore the data:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>erasmus <span class="sc">|&gt;</span> <span class="fu">names</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> [1] "project_reference"                   "academic_year"                      
+ [3] "mobility_start_month"                "mobility_end_month"                 
+ [5] "mobility_duration"                   "activity_mob"                       
+ [7] "field_of_education"                  "participant_nationality"            
+ [9] "education_level"                     "participant_gender"                 
+[11] "participant_profile"                 "special_needs"                      
+[13] "fewer_opportunities"                 "group_leader"                       
+[15] "participant_age"                     "sending_country_code"               
+[17] "sending_city"                        "sending_organization"               
+[19] "sending_organisation_erasmus_code"   "receiving_country_code"             
+[21] "receiving_city"                      "receiving_organization"             
+[23] "receiving_organisation_erasmus_code" "participants"                       </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>erasmus <span class="sc">|&gt;</span> <span class="fu">glimpse</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Rows: 164,635
+Columns: 24
+$ project_reference                   &lt;chr&gt; "2014-1-AT02-KA347-000139", "2014-~
+$ academic_year                       &lt;chr&gt; "2014-2015", "2014-2015", "2014-20~
+$ mobility_start_month                &lt;chr&gt; "2014-11", "2014-11", "2014-11", "~
+$ mobility_end_month                  &lt;chr&gt; "2014-11", "2014-11", "2014-11", "~
+$ mobility_duration                   &lt;dbl&gt; 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1~
+$ activity_mob                        &lt;chr&gt; "National youth meetings", "Nation~
+$ field_of_education                  &lt;chr&gt; "? Unknown ?", "? Unknown ?", "? U~
+$ participant_nationality             &lt;chr&gt; "AT", "AT", "AT", "AT", "AT", "AT"~
+$ education_level                     &lt;chr&gt; "??? - ? Unknown ?", "??? - ? Unkn~
+$ participant_gender                  &lt;chr&gt; "Female", "Female", "Female", "Mal~
+$ participant_profile                 &lt;chr&gt; "Learner", "Learner", "Learner", "~
+$ special_needs                       &lt;chr&gt; "No", "No", "No", "No", "No", "No"~
+$ fewer_opportunities                 &lt;chr&gt; "Yes", "Yes", "Yes", "Yes", "Yes",~
+$ group_leader                        &lt;chr&gt; "No", "No", "No", "No", "No", "No"~
+$ participant_age                     &lt;dbl&gt; 13, 14, 15, 14, 15, 15, 16, 17, 18~
+$ sending_country_code                &lt;chr&gt; "AT", "AT", "AT", "AT", "AT", "AT"~
+$ sending_city                        &lt;chr&gt; "Dornbirn", "Dornbirn", "Dornbirn"~
+$ sending_organization                &lt;chr&gt; "bOJA - Bundesweites Netzwerk Offe~
+$ sending_organisation_erasmus_code   &lt;chr&gt; "-", "-", "-", "-", "-", "-", "-",~
+$ receiving_country_code              &lt;chr&gt; "AT", "AT", "AT", "AT", "AT", "AT"~
+$ receiving_city                      &lt;chr&gt; "Dornbirn", "Dornbirn", "Dornbirn"~
+$ receiving_organization              &lt;chr&gt; "bOJA - Bundesweites Netzwerk Offe~
+$ receiving_organisation_erasmus_code &lt;chr&gt; "-", "-", "-", "-", "-", "-", "-",~
+$ participants                        &lt;dbl&gt; 2, 3, 3, 4, 2, 2, 1, 3, 1, 2, 1, 2~</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>erasmus <span class="sc">|&gt;</span> <span class="fu">count</span>(participants)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 99 x 2
+   participants      n
+          &lt;dbl&gt;  &lt;int&gt;
+ 1            1 118352
+ 2            2  22804
+ 3            3   8756
+ 4            4   4642
+ 5            5   2572
+ 6            6   1775
+ 7            7   1125
+ 8            8    874
+ 9            9    668
+10           10    502
+# ... with 89 more rows</code></pre>
+</div>
+</div>
+<p>First check number of rows</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>erasmus <span class="sc">|&gt;</span> <span class="fu">dim</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 164635     24</code></pre>
+</div>
+</div>
+<p>Number of rows after ‘expansion’. Expansion expands a frequency-weighted datafile to a regular file where each row represents a single student exchange trip.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>erasmus <span class="sc">|&gt;</span> </span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">uncount</span>(participants) <span class="sc">|&gt;</span></span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">dim</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 309751     23</code></pre>
+</div>
+</div>
+<p>From which countries do participants come?</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>erasmus <span class="sc">|&gt;</span> </span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(sending_country_code)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 54 x 2
+   sending_country_code     n
+   &lt;chr&gt;                &lt;int&gt;
+ 1 AL                     132
+ 2 AM                     127
+ 3 AT                    3484
+ 4 AZ                      54
+ 5 BA                      83
+ 6 BE                    3279
+ 7 BG                    4412
+ 8 BY                      69
+ 9 CY                    1886
+10 CZ                    6086
+# ... with 44 more rows</code></pre>
+</div>
+</div>
+<p>To which country do participants go?</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>erasmus <span class="sc">|&gt;</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(receiving_country_code)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 34 x 2
+   receiving_country_code     n
+   &lt;chr&gt;                  &lt;int&gt;
+ 1 AT                      3451
+ 2 BE                      4008
+ 3 BG                      4120
+ 4 CY                      1981
+ 5 CZ                      6107
+ 6 DE                     17000
+ 7 DK                      1484
+ 8 EE                      3637
+ 9 EL                      2042
+10 ES                     11188
+# ... with 24 more rows</code></pre>
+</div>
+</div>
+<p>Add names to the codes. There are several options to do this. - <em>Option 1</em>: Explicit in-script recoding</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>erasmus <span class="sc">|&gt;</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">sending_country_name =</span></span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>           <span class="fu">case_when</span>(sending_country_code <span class="sc">==</span> <span class="st">"AT"</span> <span class="sc">~</span> <span class="st">"Austria"</span>,</span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>                     sending_country_code <span class="sc">==</span> <span class="st">"BE"</span> <span class="sc">~</span> <span class="st">"Belgium"</span>,</span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>                     sending_country_code <span class="sc">==</span> <span class="st">"BG"</span> <span class="sc">~</span> <span class="st">"Bulgaria"</span>,</span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a>                     sending_country_code <span class="sc">==</span> <span class="st">"CY"</span> <span class="sc">~</span> <span class="st">"Cyprus"</span>,</span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a>                     sending_country_code <span class="sc">==</span> <span class="st">"CZ"</span> <span class="sc">~</span> <span class="st">"Czechia"</span>,</span>
+<span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a>                     sending_country_code <span class="sc">==</span> <span class="st">"DE"</span> <span class="sc">~</span> <span class="st">"Germany"</span>,</span>
+<span id="cb20-9"><a href="#cb20-9" aria-hidden="true" tabindex="-1"></a>                     sending_country_code <span class="sc">==</span> <span class="st">"DK"</span> <span class="sc">~</span> <span class="st">"Denkmark"</span></span>
+<span id="cb20-10"><a href="#cb20-10" aria-hidden="true" tabindex="-1"></a>                     <span class="co"># .........</span></span>
+<span id="cb20-11"><a href="#cb20-11" aria-hidden="true" tabindex="-1"></a>           )) <span class="sc">|&gt;</span></span>
+<span id="cb20-12"><a href="#cb20-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(sending_country_name)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 8 x 2
+  sending_country_name      n
+  &lt;chr&gt;                 &lt;int&gt;
+1 Austria                3484
+2 Belgium                3279
+3 Bulgaria               4412
+4 Cyprus                 1886
+5 Czechia                6086
+6 Denkmark               1426
+7 Germany               17155
+8 &lt;NA&gt;                 126907</code></pre>
+</div>
+</div>
+<ul>
+<li><em>Option 2</em>: Join with look-up table in a separate CSV file</li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>country_labels <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="fu">here</span>(<span class="st">"C:/Users/Gebruiker/Desktop/TidyTuesday/TT_20221115/country_names.csv"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>erasmus <span class="sc">|&gt;</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(country_labels, </span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>            <span class="at">by=</span><span class="fu">c</span>(<span class="st">"receiving_country_code"</span> <span class="ot">=</span> <span class="st">"country_code"</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename</span>(<span class="at">receiving_country_name =</span> country_name,</span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>         <span class="at">receiving_country_status =</span> country_status)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 164,635 x 26
+   project_ref~1 acade~2 mobil~3 mobil~4 mobil~5 activ~6 field~7 parti~8 educa~9
+   &lt;chr&gt;         &lt;chr&gt;   &lt;chr&gt;   &lt;chr&gt;     &lt;dbl&gt; &lt;chr&gt;   &lt;chr&gt;   &lt;chr&gt;   &lt;chr&gt;  
+ 1 2014-1-AT02-~ 2014-2~ 2014-11 2014-11       1 Nation~ ? Unkn~ AT      ??? - ~
+ 2 2014-1-AT02-~ 2014-2~ 2014-11 2014-11       1 Nation~ ? Unkn~ AT      ??? - ~
+ 3 2014-1-AT02-~ 2014-2~ 2014-11 2014-11       1 Nation~ ? Unkn~ AT      ??? - ~
+ 4 2014-1-AT02-~ 2014-2~ 2014-11 2014-11       1 Nation~ ? Unkn~ AT      ??? - ~
+ 5 2014-1-AT02-~ 2014-2~ 2014-11 2014-11       1 Nation~ ? Unkn~ AT      ??? - ~
+ 6 2014-1-AT02-~ 2014-2~ 2014-12 2014-12       1 Nation~ ? Unkn~ AT      ??? - ~
+ 7 2014-1-AT02-~ 2014-2~ 2014-12 2014-12       1 Nation~ ? Unkn~ AT      ??? - ~
+ 8 2014-1-AT02-~ 2014-2~ 2014-12 2014-12       1 Nation~ ? Unkn~ AT      ??? - ~
+ 9 2014-1-AT02-~ 2014-2~ 2014-12 2014-12       1 Nation~ ? Unkn~ AT      ??? - ~
+10 2014-1-AT02-~ 2014-2~ 2014-12 2014-12       1 Nation~ ? Unkn~ AT      ??? - ~
+# ... with 164,625 more rows, 17 more variables: participant_gender &lt;chr&gt;,
+#   participant_profile &lt;chr&gt;, special_needs &lt;chr&gt;, fewer_opportunities &lt;chr&gt;,
+#   group_leader &lt;chr&gt;, participant_age &lt;dbl&gt;, sending_country_code &lt;chr&gt;,
+#   sending_city &lt;chr&gt;, sending_organization &lt;chr&gt;,
+#   sending_organisation_erasmus_code &lt;chr&gt;, receiving_country_code &lt;chr&gt;,
+#   receiving_city &lt;chr&gt;, receiving_organization &lt;chr&gt;,
+#   receiving_organisation_erasmus_code &lt;chr&gt;, participants &lt;dbl&gt;, ...</code></pre>
+</div>
+</div>
+<p>Combining some of the above transformations we created a clean file</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>labeled_erasmus_full <span class="ot">&lt;-</span> </span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>  erasmus <span class="sc">|&gt;</span></span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Keep only a subset of columns/variables</span></span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(sending_country_code, receiving_country_code, </span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a>         participant_gender, academic_year, activity_mob, participants) <span class="sc">|&gt;</span></span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a>  <span class="co"># insert names of receiving countries by linking to country codes</span></span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(country_labels, </span>
+<span id="cb25-8"><a href="#cb25-8" aria-hidden="true" tabindex="-1"></a>            <span class="at">by=</span><span class="fu">c</span>(<span class="st">"receiving_country_code"</span> <span class="ot">=</span> <span class="st">"country_code"</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb25-9"><a href="#cb25-9" aria-hidden="true" tabindex="-1"></a>  <span class="co"># make sure the column names are clear </span></span>
+<span id="cb25-10"><a href="#cb25-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename</span>(<span class="at">receiving_country_name =</span> country_name,</span>
+<span id="cb25-11"><a href="#cb25-11" aria-hidden="true" tabindex="-1"></a>         <span class="at">receiving_country_status =</span> country_status) <span class="sc">|&gt;</span> </span>
+<span id="cb25-12"><a href="#cb25-12" aria-hidden="true" tabindex="-1"></a>  <span class="co"># insert names of sending countries by linking to country codes</span></span>
+<span id="cb25-13"><a href="#cb25-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(country_labels, </span>
+<span id="cb25-14"><a href="#cb25-14" aria-hidden="true" tabindex="-1"></a>            <span class="at">by=</span><span class="fu">c</span>(<span class="st">"sending_country_code"</span> <span class="ot">=</span> <span class="st">"country_code"</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb25-15"><a href="#cb25-15" aria-hidden="true" tabindex="-1"></a>  <span class="co"># make sure the column names are clear </span></span>
+<span id="cb25-16"><a href="#cb25-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename</span>(<span class="at">sending_country_name =</span> country_name,</span>
+<span id="cb25-17"><a href="#cb25-17" aria-hidden="true" tabindex="-1"></a>         <span class="at">sending_country_status =</span> country_status) <span class="sc">|&gt;</span> </span>
+<span id="cb25-18"><a href="#cb25-18" aria-hidden="true" tabindex="-1"></a>  <span class="co"># exclude countries outside EU and with no affiliation to EU</span></span>
+<span id="cb25-19"><a href="#cb25-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(sending_country_status <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"EU"</span>, <span class="st">"EFTA"</span>, <span class="st">"UK"</span>, <span class="st">"Candidate"</span>),</span>
+<span id="cb25-20"><a href="#cb25-20" aria-hidden="true" tabindex="-1"></a>         receiving_country_status <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"EU"</span>, <span class="st">"EFTA"</span>, <span class="st">"UK"</span>, <span class="st">"Candidate"</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb25-21"><a href="#cb25-21" aria-hidden="true" tabindex="-1"></a>  <span class="co"># exclude the (many!) within-country exchanges</span></span>
+<span id="cb25-22"><a href="#cb25-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(sending_country_code <span class="sc">!=</span> receiving_country_code) <span class="sc">|&gt;</span></span>
+<span id="cb25-23"><a href="#cb25-23" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Only international mobility program</span></span>
+<span id="cb25-24"><a href="#cb25-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(activity_mob <span class="sc">==</span> <span class="st">"Transnational youth meetings"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb25-25"><a href="#cb25-25" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Every row becomes an individual international student trip </span></span>
+<span id="cb25-26"><a href="#cb25-26" aria-hidden="true" tabindex="-1"></a>  <span class="fu">uncount</span>(participants) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="descriptive-questions" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="descriptive-questions">Descriptive questions</h2>
+<p>How many students are there?</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>labeled_erasmus_full <span class="sc">|&gt;</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">dim</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 15693     9</code></pre>
+</div>
+</div>
+<p>Where did they come from?</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>labeled_erasmus_full <span class="sc">|&gt;</span> </span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(sending_country_name) <span class="sc">|&gt;</span></span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">print</span>(<span class="at">n=</span><span class="cn">Inf</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 36 x 2
+   sending_country_name     n
+   &lt;chr&gt;                &lt;int&gt;
+ 1 Albania                169
+ 2 Austria                565
+ 3 Belgium                662
+ 4 Bulgaria               526
+ 5 Croatia                323
+ 6 Cyprus                 121
+ 7 Czechia                531
+ 8 Denmark                296
+ 9 Estonia                292
+10 Finland                307
+11 France                 622
+12 Germany               1314
+13 Greece                 483
+14 Hungary                473
+15 Iceland                 25
+16 Ireland                225
+17 Italy                 1098
+18 Latvia                 386
+19 Liechtenstein            6
+20 Lithuania              411
+21 Luxembourg             166
+22 Malta                   58
+23 Montenegro              27
+24 Netherlands            630
+25 North Macedonia        185
+26 Norway                 133
+27 Poland                 837
+28 Portugal               468
+29 Romania                745
+30 Serbia                 343
+31 Slovakia               370
+32 Slovenia               268
+33 Spain                  819
+34 Sweden                 495
+35 Turkey                 553
+36 United Kingdom         761</code></pre>
+</div>
+</div>
+<p>Visualization as a bar graph</p>
+<div class="cell page-columns page-full">
+<div class="sourceCode cell-code" id="cb30"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>labeled_erasmus_full <span class="sc">|&gt;</span> </span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(sending_country_name) <span class="sc">|&gt;</span>  </span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>() <span class="sc">+</span> </span>
+<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>(<span class="fu">aes</span>(<span class="at">x=</span>sending_country_name, <span class="at">y=</span>n))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display page-columns page-full">
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="09_TT_202211_files/figure-html/bar-graph-1.png" class="img-fluid figure-img" width="576"></p>
+<p></p><figcaption class="figure-caption margin-caption">Where do students come from, horizontal</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>With vertical labels labels</p>
+<div class="cell page-columns page-full">
+<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>labeled_erasmus_full <span class="sc">|&gt;</span> </span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(sending_country_name) <span class="sc">|&gt;</span>  </span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>() <span class="sc">+</span> </span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>(<span class="fu">aes</span>(<span class="at">x=</span>sending_country_name, <span class="at">y=</span>n)) <span class="sc">+</span></span>
+<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">90</span>, <span class="at">vjust =</span> <span class="fl">0.5</span>, <span class="at">hjust=</span><span class="dv">1</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display page-columns page-full">
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="09_TT_202211_files/figure-html/send-count-ver-1.png" class="img-fluid figure-img" width="576"></p>
+<p></p><figcaption class="figure-caption margin-caption">Where do students come from, vertical</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Order by frequency.</p>
+<div class="cell page-columns page-full">
+<div class="sourceCode cell-code" id="cb32"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>labeled_erasmus_full <span class="sc">|&gt;</span> </span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(sending_country_code) <span class="sc">|&gt;</span>  </span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="sc">-</span>n) <span class="sc">|&gt;</span></span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Converting character variable to factor variable</span></span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a>    <span class="fu">mutate</span>(<span class="at">sending_country_code=</span><span class="fu">factor</span>(sending_country_code,</span>
+<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a>                                     <span class="at">levels =</span> <span class="fu">unique</span>(sending_country_code),</span>
+<span id="cb32-7"><a href="#cb32-7" aria-hidden="true" tabindex="-1"></a>                                     <span class="at">ordered =</span> T)) <span class="sc">|&gt;</span></span>
+<span id="cb32-8"><a href="#cb32-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>() <span class="sc">+</span> </span>
+<span id="cb32-9"><a href="#cb32-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>(<span class="fu">aes</span>(<span class="at">x=</span>sending_country_code, <span class="at">y=</span>n)) <span class="sc">+</span></span>
+<span id="cb32-10"><a href="#cb32-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">90</span>, <span class="at">vjust =</span> <span class="fl">0.5</span>, <span class="at">hjust=</span><span class="dv">1</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display page-columns page-full">
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="09_TT_202211_files/figure-html/send-count-order-1.png" class="img-fluid figure-img" width="576"></p>
+<p></p><figcaption class="figure-caption margin-caption">Where do students come from, ordered</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Where did they go to?</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>labeled_erasmus_full <span class="sc">|&gt;</span> </span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(receiving_country_name) <span class="sc">|&gt;</span></span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="sc">-</span>n) <span class="sc">|&gt;</span></span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">print</span>(<span class="at">n=</span><span class="cn">Inf</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 31 x 2
+   receiving_country_name     n
+   &lt;chr&gt;                  &lt;int&gt;
+ 1 France                  2403
+ 2 Belgium                 1428
+ 3 Spain                   1204
+ 4 Germany                 1095
+ 5 Italy                   1017
+ 6 Netherlands              765
+ 7 Luxembourg               607
+ 8 Estonia                  524
+ 9 Czechia                  518
+10 Lithuania                495
+11 Austria                  485
+12 United Kingdom           483
+13 Greece                   444
+14 Romania                  423
+15 Turkey                   371
+16 Slovenia                 355
+17 Croatia                  343
+18 Denmark                  340
+19 Poland                   340
+20 Portugal                 296
+21 Norway                   286
+22 Sweden                   250
+23 Cyprus                   214
+24 Ireland                  186
+25 Latvia                   165
+26 Malta                    163
+27 Bulgaria                 149
+28 Hungary                  116
+29 North Macedonia          111
+30 Slovakia                  67
+31 Finland                   50</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb35"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>labeled_erasmus_full <span class="sc">|&gt;</span> </span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(receiving_country_name) <span class="sc">|&gt;</span></span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="sc">-</span>n) <span class="sc">|&gt;</span></span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">print</span>(<span class="at">n=</span><span class="cn">Inf</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 31 x 2
+   receiving_country_name     n
+   &lt;chr&gt;                  &lt;int&gt;
+ 1 France                  2403
+ 2 Belgium                 1428
+ 3 Spain                   1204
+ 4 Germany                 1095
+ 5 Italy                   1017
+ 6 Netherlands              765
+ 7 Luxembourg               607
+ 8 Estonia                  524
+ 9 Czechia                  518
+10 Lithuania                495
+11 Austria                  485
+12 United Kingdom           483
+13 Greece                   444
+14 Romania                  423
+15 Turkey                   371
+16 Slovenia                 355
+17 Croatia                  343
+18 Denmark                  340
+19 Poland                   340
+20 Portugal                 296
+21 Norway                   286
+22 Sweden                   250
+23 Cyprus                   214
+24 Ireland                  186
+25 Latvia                   165
+26 Malta                    163
+27 Bulgaria                 149
+28 Hungary                  116
+29 North Macedonia          111
+30 Slovakia                  67
+31 Finland                   50</code></pre>
+</div>
+</div>
+<p>Let us visualise this also, vertical and ordered.</p>
+<div class="cell page-columns page-full">
+<div class="sourceCode cell-code" id="cb37"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>labeled_erasmus_full <span class="sc">|&gt;</span> </span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(receiving_country_code) <span class="sc">|&gt;</span>  </span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="sc">-</span>n) <span class="sc">|&gt;</span></span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">receiving_country_code=</span><span class="fu">factor</span>(receiving_country_code,</span>
+<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a>                                       <span class="at">levels =</span> <span class="fu">unique</span>(receiving_country_code),</span>
+<span id="cb37-6"><a href="#cb37-6" aria-hidden="true" tabindex="-1"></a>                                       <span class="at">ordered =</span> T)) <span class="sc">|&gt;</span></span>
+<span id="cb37-7"><a href="#cb37-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>() <span class="sc">+</span> </span>
+<span id="cb37-8"><a href="#cb37-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>(<span class="fu">aes</span>(<span class="at">x=</span>receiving_country_code, <span class="at">y=</span>n)) <span class="sc">+</span></span>
+<span id="cb37-9"><a href="#cb37-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">90</span>, <span class="at">vjust =</span> <span class="fl">0.5</span>, <span class="at">hjust=</span><span class="dv">1</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display page-columns page-full">
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="09_TT_202211_files/figure-html/receive-count-order-1.png" class="img-fluid figure-img" width="576"></p>
+<p></p><figcaption class="figure-caption margin-caption">How many students do countries receive, ordered</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Top 10 Where did they go to.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb38"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a>labeled_erasmus_full <span class="sc">|&gt;</span> </span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(receiving_country_name) <span class="sc">|&gt;</span></span>
+<span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="sc">-</span>n) <span class="sc">|&gt;</span> </span>
+<span id="cb38-4"><a href="#cb38-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">head</span>(<span class="at">n=</span><span class="dv">10</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 10 x 2
+   receiving_country_name     n
+   &lt;chr&gt;                  &lt;int&gt;
+ 1 France                  2403
+ 2 Belgium                 1428
+ 3 Spain                   1204
+ 4 Germany                 1095
+ 5 Italy                   1017
+ 6 Netherlands              765
+ 7 Luxembourg               607
+ 8 Estonia                  524
+ 9 Czechia                  518
+10 Lithuania                495</code></pre>
+</div>
+</div>
+<p>Top 10 Where did they come from</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb40"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a>labeled_erasmus_full <span class="sc">|&gt;</span> </span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(sending_country_name) <span class="sc">|&gt;</span></span>
+<span id="cb40-3"><a href="#cb40-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="sc">-</span>n) <span class="sc">|&gt;</span> </span>
+<span id="cb40-4"><a href="#cb40-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">head</span>(<span class="at">n=</span><span class="dv">10</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 10 x 2
+   sending_country_name     n
+   &lt;chr&gt;                &lt;int&gt;
+ 1 Germany               1314
+ 2 Italy                 1098
+ 3 Poland                 837
+ 4 Spain                  819
+ 5 United Kingdom         761
+ 6 Romania                745
+ 7 Belgium                662
+ 8 Netherlands            630
+ 9 France                 622
+10 Austria                565</code></pre>
+</div>
+</div>
+<p>Top 10 origin-destination combinations</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb42"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a>labeled_erasmus_full <span class="sc">|&gt;</span> </span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(sending_country_name, receiving_country_name) <span class="sc">|&gt;</span></span>
+<span id="cb42-3"><a href="#cb42-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="sc">-</span>n) <span class="sc">|&gt;</span> </span>
+<span id="cb42-4"><a href="#cb42-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">head</span>(<span class="at">n=</span><span class="dv">10</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 10 x 3
+   sending_country_name receiving_country_name     n
+   &lt;chr&gt;                &lt;chr&gt;                  &lt;int&gt;
+ 1 Germany              France                   305
+ 2 Italy                France                   268
+ 3 Germany              Belgium                  235
+ 4 Belgium              France                   198
+ 5 Italy                Spain                    170
+ 6 Spain                France                   149
+ 7 United Kingdom       France                   131
+ 8 Spain                Italy                    123
+ 9 Poland               France                   122
+10 France               Belgium                  120</code></pre>
+</div>
+</div>
+<pre><code># Intermezzo 
+(Cartesian product = cross-product = all combinations) 
+
+Tiny dataset of team members
+
+::: {.cell}
+
+```{.r .cell-code}
+team_members &lt;- tibble(name = c( "Alex", "Asier", "Franziska", "Sam", "Wim")) 
+# Tiny datset of available days
+sessions &lt;- tibble(day = c("Monday", "Tuesday", "Thursday"))</code></pre>
+<p>:::</p>
+<p>Make all combinations of team members and available days</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb45"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a><span class="fu">full_join</span>(team_members, sessions, <span class="at">by =</span> <span class="fu">as.character</span>())</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 15 x 2
+   name      day     
+   &lt;chr&gt;     &lt;chr&gt;   
+ 1 Alex      Monday  
+ 2 Alex      Tuesday 
+ 3 Alex      Thursday
+ 4 Asier     Monday  
+ 5 Asier     Tuesday 
+ 6 Asier     Thursday
+ 7 Franziska Monday  
+ 8 Franziska Tuesday 
+ 9 Franziska Thursday
+10 Sam       Monday  
+11 Sam       Tuesday 
+12 Sam       Thursday
+13 Wim       Monday  
+14 Wim       Tuesday 
+15 Wim       Thursday</code></pre>
+</div>
+</div>
+<p>Same results, but more transparent code.</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p>thanks to Nick van Doormaal for this suggestion</p>
+</div></div><div class="cell">
+<div class="sourceCode cell-code" id="cb47"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a><span class="fu">expand_grid</span>(team_members, sessions)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 15 x 2
+   name      day     
+   &lt;chr&gt;     &lt;chr&gt;   
+ 1 Alex      Monday  
+ 2 Alex      Tuesday 
+ 3 Alex      Thursday
+ 4 Asier     Monday  
+ 5 Asier     Tuesday 
+ 6 Asier     Thursday
+ 7 Franziska Monday  
+ 8 Franziska Tuesday 
+ 9 Franziska Thursday
+10 Sam       Monday  
+11 Sam       Tuesday 
+12 Sam       Thursday
+13 Wim       Monday  
+14 Wim       Tuesday 
+15 Wim       Thursday</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb49"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a><span class="fu">full_join</span>(team_members, team_members, <span class="at">by =</span> <span class="fu">as.character</span>()) <span class="sc">|&gt;</span></span>
+<span id="cb49-2"><a href="#cb49-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(name.x <span class="sc">!=</span> name.y)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 20 x 2
+   name.x    name.y   
+   &lt;chr&gt;     &lt;chr&gt;    
+ 1 Alex      Asier    
+ 2 Alex      Franziska
+ 3 Alex      Sam      
+ 4 Alex      Wim      
+ 5 Asier     Alex     
+ 6 Asier     Franziska
+ 7 Asier     Sam      
+ 8 Asier     Wim      
+ 9 Franziska Alex     
+10 Franziska Asier    
+11 Franziska Sam      
+12 Franziska Wim      
+13 Sam       Alex     
+14 Sam       Asier    
+15 Sam       Franziska
+16 Sam       Wim      
+17 Wim       Alex     
+18 Wim       Asier    
+19 Wim       Franziska
+20 Wim       Sam      </code></pre>
+</div>
+</div>
+<pre><code>
+Create all possible combinations of sending and receiving country names.
+
+::: {.cell}
+
+```{.r .cell-code}
+possible_mobility_names &lt;- 
+  full_join(country_labels, country_labels,
+            by = as.character()) |&gt;
+  select(sending_country_name   = country_name.x,
+         receiving_country_name = country_name.y,
+         sending_country_code   = country_code.x,
+         receiving_country_code = country_code.y) |&gt;
+  filter(sending_country_name != receiving_country_name)</code></pre>
+<p>:::</p>
+<p>Erasmus student mobility flows including zero flows</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb52"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb52-1"><a href="#cb52-1" aria-hidden="true" tabindex="-1"></a>flows_erasmus_full_zeros <span class="ot">&lt;-</span></span>
+<span id="cb52-2"><a href="#cb52-2" aria-hidden="true" tabindex="-1"></a>  labeled_erasmus_full <span class="sc">|&gt;</span> </span>
+<span id="cb52-3"><a href="#cb52-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(sending_country_name, receiving_country_name) <span class="sc">|&gt;</span></span>
+<span id="cb52-4"><a href="#cb52-4" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Origin, destination, count</span></span>
+<span id="cb52-5"><a href="#cb52-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>() <span class="sc">|&gt;</span></span>
+<span id="cb52-6"><a href="#cb52-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename</span>(<span class="at">exchanges =</span> n) <span class="sc">|&gt;</span></span>
+<span id="cb52-7"><a href="#cb52-7" aria-hidden="true" tabindex="-1"></a>  <span class="co"># join with all combinations to include zero-flow pairs</span></span>
+<span id="cb52-8"><a href="#cb52-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">right_join</span>(possible_mobility_names) <span class="sc">|&gt;</span> </span>
+<span id="cb52-9"><a href="#cb52-9" aria-hidden="true" tabindex="-1"></a>  <span class="co"># change the NAs (= zero-flow) into 0</span></span>
+<span id="cb52-10"><a href="#cb52-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">replace_na</span>(<span class="fu">list</span>(<span class="at">exchanges=</span><span class="dv">0</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Number of exchanges frequencies reversed: 581 zero flows, 37 1-person flow</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb53"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb53-1"><a href="#cb53-1" aria-hidden="true" tabindex="-1"></a>flows_erasmus_full_zeros <span class="sc">|&gt;</span></span>
+<span id="cb53-2"><a href="#cb53-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>() <span class="sc">|&gt;</span></span>
+<span id="cb53-3"><a href="#cb53-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(exchanges) <span class="sc">|&gt;</span></span>
+<span id="cb53-4"><a href="#cb53-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(exchanges) <span class="sc">|&gt;</span></span>
+<span id="cb53-5"><a href="#cb53-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">print</span>(<span class="at">n=</span><span class="dv">40</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 98 x 2
+   exchanges     n
+       &lt;int&gt; &lt;int&gt;
+ 1         0   581
+ 2         1    37
+ 3         2    37
+ 4         3    48
+ 5         4    35
+ 6         5    42
+ 7         6    30
+ 8         7    32
+ 9         8    29
+10         9    19
+11        10    28
+12        11    20
+13        12    27
+14        13    14
+15        14    18
+16        15    20
+17        16    15
+18        17    15
+19        18    13
+20        19    15
+21        20    16
+22        21    10
+23        22    13
+24        23    14
+25        24     9
+26        25    13
+27        26     7
+28        27     7
+29        28     7
+30        29    13
+31        30     8
+32        31     9
+33        32     4
+34        33     7
+35        34     4
+36        35     4
+37        36     6
+38        37     6
+39        38     4
+40        39     3
+# ... with 58 more rows</code></pre>
+</div>
+</div>
+<p>Let us make a histogram of this distribution</p>
+<div class="cell page-columns page-full">
+<div class="sourceCode cell-code" id="cb55"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb55-1"><a href="#cb55-1" aria-hidden="true" tabindex="-1"></a>flows_erasmus_full_zeros <span class="sc">|&gt;</span></span>
+<span id="cb55-2"><a href="#cb55-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>() <span class="sc">+</span></span>
+<span id="cb55-3"><a href="#cb55-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="fu">aes</span>(<span class="at">x=</span>exchanges), <span class="at">binwidth =</span> <span class="dv">5</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display page-columns page-full">
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="09_TT_202211_files/figure-html/mobility-histo-1.png" class="img-fluid figure-img" width="576"></p>
+<p></p><figcaption class="figure-caption margin-caption">Histogram of student mobility flow</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb56"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb56-1"><a href="#cb56-1" aria-hidden="true" tabindex="-1"></a>reverse_flows_erasmus_full_zeros <span class="ot">&lt;-</span></span>
+<span id="cb56-2"><a href="#cb56-2" aria-hidden="true" tabindex="-1"></a>  flows_erasmus_full_zeros <span class="sc">|&gt;</span></span>
+<span id="cb56-3"><a href="#cb56-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename</span>(<span class="at">sending_country_name =</span> receiving_country_name,</span>
+<span id="cb56-4"><a href="#cb56-4" aria-hidden="true" tabindex="-1"></a>         <span class="at">receiving_country_name =</span> sending_country_name,</span>
+<span id="cb56-5"><a href="#cb56-5" aria-hidden="true" tabindex="-1"></a>         <span class="at">reverse_exchanges =</span> exchanges)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb57"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb57-1"><a href="#cb57-1" aria-hidden="true" tabindex="-1"></a><span class="fu">full_join</span>(flows_erasmus_full_zeros, reverse_flows_erasmus_full_zeros,</span>
+<span id="cb57-2"><a href="#cb57-2" aria-hidden="true" tabindex="-1"></a>          <span class="at">by =</span> (<span class="fu">c</span>(<span class="st">"sending_country_name"</span>, <span class="st">"receiving_country_name"</span>))) <span class="sc">|&gt;</span> </span>
+<span id="cb57-3"><a href="#cb57-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>() <span class="sc">|&gt;</span></span>
+<span id="cb57-4"><a href="#cb57-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(exchanges, reverse_exchanges) <span class="sc">|&gt;</span></span>
+<span id="cb57-5"><a href="#cb57-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cor</span>() <span class="sc">|&gt;</span> </span>
+<span id="cb57-6"><a href="#cb57-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">as_tibble</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 2 x 2
+  exchanges reverse_exchanges
+      &lt;dbl&gt;             &lt;dbl&gt;
+1     1                 0.463
+2     0.463             1    </code></pre>
+</div>
+</div>
+<p>This scatterplot is by design symetric in the diagonal</p>
+<div class="cell page-columns page-full">
+<div class="sourceCode cell-code" id="cb59"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb59-1"><a href="#cb59-1" aria-hidden="true" tabindex="-1"></a><span class="fu">full_join</span>(flows_erasmus_full_zeros, reverse_flows_erasmus_full_zeros,</span>
+<span id="cb59-2"><a href="#cb59-2" aria-hidden="true" tabindex="-1"></a>          <span class="at">by =</span> (<span class="fu">c</span>(<span class="st">"sending_country_name"</span>, <span class="st">"receiving_country_name"</span>))) <span class="sc">|&gt;</span> </span>
+<span id="cb59-3"><a href="#cb59-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>() <span class="sc">|&gt;</span></span>
+<span id="cb59-4"><a href="#cb59-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(exchanges, reverse_exchanges) <span class="sc">|&gt;</span></span>
+<span id="cb59-5"><a href="#cb59-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>() <span class="sc">+</span></span>
+<span id="cb59-6"><a href="#cb59-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="fu">aes</span>(<span class="at">y=</span>exchanges, <span class="at">x=</span>reverse_exchanges) )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display page-columns page-full">
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="09_TT_202211_files/figure-html/mobility-scatterplot-1.png" class="img-fluid figure-img" width="576"></p>
+<p></p><figcaption class="figure-caption margin-caption">Relation between exchanges</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="modeling" class="level2">
+<h2 class="anchored" data-anchor-id="modeling">Modeling</h2>
+<p>Read the neighbor relations between countries</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb60"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb60-1"><a href="#cb60-1" aria-hidden="true" tabindex="-1"></a>adjacency <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="fu">here</span>(<span class="st">"C:/Users/Gebruiker/Desktop/TidyTuesday/TT_20221115/adjacency.csv"</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb60-2"><a href="#cb60-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename</span>(<span class="at">sending_country_name =</span> country_name,</span>
+<span id="cb60-3"><a href="#cb60-3" aria-hidden="true" tabindex="-1"></a>         <span class="at">receiving_country_name =</span> neighbor) <span class="sc">|&gt;</span></span>
+<span id="cb60-4"><a href="#cb60-4" aria-hidden="true" tabindex="-1"></a>  <span class="co"># mark the rows that indicate shared borders</span></span>
+<span id="cb60-5"><a href="#cb60-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">adjacent =</span> <span class="dv">1</span>) <span class="sc">|&gt;</span></span>
+<span id="cb60-6"><a href="#cb60-6" aria-hidden="true" tabindex="-1"></a>  <span class="co"># merge with the data that include all possible mobility streams</span></span>
+<span id="cb60-7"><a href="#cb60-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">right_join</span>(possible_mobility_names,</span>
+<span id="cb60-8"><a href="#cb60-8" aria-hidden="true" tabindex="-1"></a>             <span class="at">by=</span><span class="fu">c</span>(<span class="st">"sending_country_name"</span>,<span class="st">"receiving_country_name"</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb60-9"><a href="#cb60-9" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Set non-adjacent to 0</span></span>
+<span id="cb60-10"><a href="#cb60-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">adjacent =</span> <span class="fu">replace_na</span>(adjacent, <span class="dv">0</span>)) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb61"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb61-1"><a href="#cb61-1" aria-hidden="true" tabindex="-1"></a>model_data <span class="ot">&lt;-</span> </span>
+<span id="cb61-2"><a href="#cb61-2" aria-hidden="true" tabindex="-1"></a>  flows_erasmus_full_zeros <span class="sc">|&gt;</span> </span>
+<span id="cb61-3"><a href="#cb61-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">inner_join</span>(adjacency, </span>
+<span id="cb61-4"><a href="#cb61-4" aria-hidden="true" tabindex="-1"></a>            <span class="at">by =</span> <span class="fu">c</span>(<span class="st">"sending_country_name"</span>,<span class="st">"receiving_country_name"</span>)) <span class="sc">|&gt;</span>  </span>
+<span id="cb61-5"><a href="#cb61-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(sending_country_name) <span class="sc">|&gt;</span></span>
+<span id="cb61-6"><a href="#cb61-6" aria-hidden="true" tabindex="-1"></a>  <span class="co"># total outflow from country</span></span>
+<span id="cb61-7"><a href="#cb61-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">outflow =</span> <span class="fu">sum</span>(exchanges)) <span class="sc">|&gt;</span></span>
+<span id="cb61-8"><a href="#cb61-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(receiving_country_name) <span class="sc">|&gt;</span></span>
+<span id="cb61-9"><a href="#cb61-9" aria-hidden="true" tabindex="-1"></a>  <span class="co"># total inflow into country</span></span>
+<span id="cb61-10"><a href="#cb61-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">inflow =</span> <span class="fu">sum</span>(exchanges)) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Number of student exchanges from A to B as a function of total numbers of outgoing students from A and of total numbers of visiting students in B</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb62"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb62-1"><a href="#cb62-1" aria-hidden="true" tabindex="-1"></a>model_01 <span class="ot">&lt;-</span> <span class="fu">lm</span>(<span class="at">formula =</span> exchanges <span class="sc">~</span>  inflow <span class="sc">+</span> outflow ,          , </span>
+<span id="cb62-2"><a href="#cb62-2" aria-hidden="true" tabindex="-1"></a>               <span class="at">data =</span> model_data)</span>
+<span id="cb62-3"><a href="#cb62-3" aria-hidden="true" tabindex="-1"></a><span class="fu">tidy</span>(model_01)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 3 x 5
+  term        estimate std.error statistic   p.value
+  &lt;chr&gt;          &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;
+1 (Intercept) -12.2      0.942       -13.0 2.49e- 36
+2 inflow        0.0281   0.00100      27.9 1.63e-135
+3 outflow       0.0285   0.00161      17.7 2.55e- 63</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb64"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb64-1"><a href="#cb64-1" aria-hidden="true" tabindex="-1"></a><span class="fu">glance</span>(model_01)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 1 x 12
+  r.squared adj.r.s~1 sigma stati~2   p.value    df logLik    AIC    BIC devia~3
+      &lt;dbl&gt;     &lt;dbl&gt; &lt;dbl&gt;   &lt;dbl&gt;     &lt;dbl&gt; &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;   &lt;dbl&gt;
+1     0.448     0.447  17.5    539. 2.98e-172     2 -5703. 11415. 11436. 408538.
+# ... with 2 more variables: df.residual &lt;int&gt;, nobs &lt;int&gt;, and abbreviated
+#   variable names 1: adj.r.squared, 2: statistic, 3: deviance</code></pre>
+</div>
+</div>
+<p>Add adjacency</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb66"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb66-1"><a href="#cb66-1" aria-hidden="true" tabindex="-1"></a>model_02 <span class="ot">&lt;-</span> <span class="fu">lm</span>(<span class="at">formula =</span> exchanges <span class="sc">~</span>  inflow <span class="sc">+</span> outflow <span class="sc">+</span> adjacent, </span>
+<span id="cb66-2"><a href="#cb66-2" aria-hidden="true" tabindex="-1"></a>               <span class="at">data =</span> model_data)</span>
+<span id="cb66-3"><a href="#cb66-3" aria-hidden="true" tabindex="-1"></a><span class="fu">tidy</span>(model_02)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 4 x 5
+  term        estimate std.error statistic   p.value
+  &lt;chr&gt;          &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;
+1 (Intercept) -12.9     0.881        -14.7 2.03e- 45
+2 inflow        0.0274  0.000939      29.1 1.27e-144
+3 outflow       0.0265  0.00151       17.5 3.93e- 62
+4 adjacent     23.0     1.64          14.0 9.76e- 42</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb68"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb68-1"><a href="#cb68-1" aria-hidden="true" tabindex="-1"></a><span class="fu">glance</span>(model_02)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 1 x 12
+  r.squared adj.r.s~1 sigma stati~2   p.value    df logLik    AIC    BIC devia~3
+      &lt;dbl&gt;     &lt;dbl&gt; &lt;dbl&gt;   &lt;dbl&gt;     &lt;dbl&gt; &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;   &lt;dbl&gt;
+1     0.519     0.518  16.4    478. 1.36e-210     3 -5612. 11233. 11259. 355879.
+# ... with 2 more variables: df.residual &lt;int&gt;, nobs &lt;int&gt;, and abbreviated
+#   variable names 1: adj.r.squared, 2: statistic, 3: deviance</code></pre>
+</div>
+</div>
+<p>Students appear to fancy visiting nearby countries abroad!</p>
+</section>
+<section id="visualization" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="visualization">Visualization</h2>
+<p><em>Visualization 1:</em> Chord diagram (using library <code>circlize</code>)</p>
+<p>Full country names</p>
+<div class="cell page-columns page-full">
+<div class="sourceCode cell-code" id="cb70"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb70-1"><a href="#cb70-1" aria-hidden="true" tabindex="-1"></a>flows_erasmus_full_zeros <span class="sc">|&gt;</span> </span>
+<span id="cb70-2"><a href="#cb70-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(exchanges <span class="sc">&gt;</span> <span class="dv">0</span>) <span class="sc">|&gt;</span></span>
+<span id="cb70-3"><a href="#cb70-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="sc">-</span>exchanges) <span class="sc">|&gt;</span> </span>
+<span id="cb70-4"><a href="#cb70-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">chordDiagram</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display page-columns page-full">
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="09_TT_202211_files/figure-html/chord-diagram-1.png" class="img-fluid figure-img" width="576"></p>
+<p></p><figcaption class="figure-caption margin-caption">Chord diagram</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Use the 2-letter abbreviations of countries here.</p>
+<div class="cell page-columns page-full">
+<div class="sourceCode cell-code" id="cb71"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb71-1"><a href="#cb71-1" aria-hidden="true" tabindex="-1"></a>flows_erasmus_full_zeros <span class="sc">|&gt;</span> </span>
+<span id="cb71-2"><a href="#cb71-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(exchanges <span class="sc">&gt;</span> <span class="dv">0</span>) <span class="sc">|&gt;</span></span>
+<span id="cb71-3"><a href="#cb71-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="sc">-</span>exchanges) <span class="sc">|&gt;</span> </span>
+<span id="cb71-4"><a href="#cb71-4" aria-hidden="true" tabindex="-1"></a>  <span class="co"># without ungroup() the .._country_name columns will</span></span>
+<span id="cb71-5"><a href="#cb71-5" aria-hidden="true" tabindex="-1"></a>  <span class="co"># be retained</span></span>
+<span id="cb71-6"><a href="#cb71-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>() <span class="sc">|&gt;</span></span>
+<span id="cb71-7"><a href="#cb71-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(sending_country_code, receiving_country_code,</span>
+<span id="cb71-8"><a href="#cb71-8" aria-hidden="true" tabindex="-1"></a>         exchanges) <span class="sc">|&gt;</span></span>
+<span id="cb71-9"><a href="#cb71-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">chordDiagram</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display page-columns page-full">
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="09_TT_202211_files/figure-html/chord-diagram-abb-1.png" class="img-fluid figure-img" width="576"></p>
+<p></p><figcaption class="figure-caption margin-caption">Chord diagram with 2-letter abbreviations</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Only flows over 100</p>
+<div class="cell page-columns page-full">
+<div class="sourceCode cell-code" id="cb72"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb72-1"><a href="#cb72-1" aria-hidden="true" tabindex="-1"></a>flows_erasmus_full_zeros <span class="sc">|&gt;</span> </span>
+<span id="cb72-2"><a href="#cb72-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(exchanges <span class="sc">&gt;</span> <span class="dv">100</span>) <span class="sc">|&gt;</span></span>
+<span id="cb72-3"><a href="#cb72-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="sc">-</span>exchanges) <span class="sc">|&gt;</span> </span>
+<span id="cb72-4"><a href="#cb72-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>() <span class="sc">|&gt;</span></span>
+<span id="cb72-5"><a href="#cb72-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(sending_country_code, receiving_country_code,</span>
+<span id="cb72-6"><a href="#cb72-6" aria-hidden="true" tabindex="-1"></a>         exchanges) <span class="sc">|&gt;</span></span>
+<span id="cb72-7"><a href="#cb72-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">chordDiagram</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display page-columns page-full">
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="09_TT_202211_files/figure-html/chord-diagram-hund-1.png" class="img-fluid figure-img" width="576"></p>
+<p></p><figcaption class="figure-caption margin-caption">Chord diagram with only flows over 100</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p><em>Visulaization 2</em>: Network representation We can also represent the countries as nodes in a network, with the student flows representing the links between them. Use package <code>igraph</code> here.</p>
+<div class="cell page-columns page-full">
+<div class="sourceCode cell-code" id="cb73"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb73-1"><a href="#cb73-1" aria-hidden="true" tabindex="-1"></a>flows_erasmus_full_zeros <span class="sc">|&gt;</span></span>
+<span id="cb73-2"><a href="#cb73-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(exchanges <span class="sc">&gt;</span> <span class="dv">100</span>) <span class="sc">|&gt;</span></span>
+<span id="cb73-3"><a href="#cb73-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">graph_from_data_frame</span>(<span class="at">directed =</span> <span class="cn">TRUE</span>, </span>
+<span id="cb73-4"><a href="#cb73-4" aria-hidden="true" tabindex="-1"></a>                      <span class="at">vertices=</span>country_labels) <span class="sc">|&gt;</span></span>
+<span id="cb73-5"><a href="#cb73-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">plot</span>(<span class="at">vertex.size=</span><span class="dv">5</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display page-columns page-full">
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="09_TT_202211_files/figure-html/network-graph-1.png" class="img-fluid figure-img" width="576"></p>
+<p></p><figcaption class="figure-caption margin-caption">Network representation</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>No isolates</p>
+<div class="page-columns page-full">
+<div class="sourceCode cell-code" id="cb74"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb74-1"><a href="#cb74-1" aria-hidden="true" tabindex="-1"></a>flows_erasmus_full_zeros <span class="sc">|&gt;</span></span>
+<span id="cb74-2"><a href="#cb74-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(exchanges <span class="sc">&gt;</span> <span class="dv">75</span>) <span class="sc">|&gt;</span></span>
+<span id="cb74-3"><a href="#cb74-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">graph_from_data_frame</span>(<span class="at">directed =</span> <span class="cn">TRUE</span>) <span class="sc">|&gt;</span></span>
+<span id="cb74-4"><a href="#cb74-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">plot</span>(<span class="at">vertex.size=</span><span class="dv">5</span>)</span>
+<span id="cb74-5"><a href="#cb74-5" aria-hidden="true" tabindex="-1"></a>flows_erasmus_full_zeros <span class="sc">|&gt;</span></span>
+<span id="cb74-6"><a href="#cb74-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(exchanges <span class="sc">&gt;</span> <span class="dv">100</span>) <span class="sc">|&gt;</span></span>
+<span id="cb74-7"><a href="#cb74-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">graph_from_data_frame</span>(<span class="at">directed =</span> <span class="cn">TRUE</span>) <span class="sc">|&gt;</span></span>
+<span id="cb74-8"><a href="#cb74-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">plot</span>(<span class="at">vertex.size=</span><span class="dv">5</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell column-screen-inset-shaded caption-margin quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="cell-output-display quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="09_TT_202211_files/figure-html/no isolates-1.png" class="img-fluid figure-img" width="576"></p>
+<p></p><figcaption class="figure-caption">No isolates</figcaption><p></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="09_TT_202211_files/figure-html/no isolates-2.png" class="img-fluid figure-img" width="576"></p>
+<p></p><figcaption class="figure-caption">No isolates</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p>For alternative methods of visualizing mobility while maintaining the geographic relations, see Andrew Wheeler’s 2015 paper in Cartography and Geographic Information Science, at (behind paywall), <a href="https://doi.org/10.1080/15230406.2014.890545">here</a></p>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

@@ -1,11 +1,11 @@
 ---
 title: "Long to wide (and vv) transformations"
-subtitle: "NSC-R Tidy Tuesday April 2022"
 author: "Sam Langton"
 date: "2022-04-05"
-format:
-   html
+categories: [exploration, visualization]
+image: "Screenshot.png"
 ---
+
 
 ## Introduction
 

@@ -8,7 +8,7 @@ image: "Screenshot.png"
 
 ## Introduction
 
-In this tutorial we will do some descriptive analysis on a salary survey in different countries and some background variables of the participants [@yasrebi-de_kom_nsc-r_2023].
+In this tutorial we will do some descriptive analysis on a salary survey in different countries and some background variables of the participants (Yasrebi-de Kom, 2023].
 
 ::: column-margin
 Thank you to Wim Bernasco who provided detailed feedback on the script and supervision on preparing this session.
@@ -455,4 +455,5 @@ converted_all |> filter(USD < 300000) |> group_by(gender) |>
 ```
 
 ## References
+
 Yasrebi-de Kom, F. (2023, January). *NSC-R Workshops: NSC-R Tidy Tuesday. NSCR*. Retrieved from https://nscrweb.netlify.app/posts/2023-01-24-nsc-r-tidy-tuesday

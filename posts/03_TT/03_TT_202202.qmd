@@ -8,7 +8,7 @@ image: "Screenshot.png"
 
 ## Introduction
 
-The dataset for this Tidy Tuesday is about animal rescues! Alex Trinidad explores the temporal trends of animal rescues using lubridate package (Grolemund & Wickham, 2011) [@trinidad_nsc-r_nodate]
+The dataset for this Tidy Tuesday is about animal rescues! Alex Trinidad explores the temporal trends of animal rescues using lubridate package (Grolemund & Wickham, 2011) (Trinidad, 2022)
 
 ## Load packages and data
 

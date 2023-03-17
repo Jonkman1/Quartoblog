@@ -8,7 +8,7 @@ image: "Screenshot.png"
 
 ## Introduction
 
-The dataset for this Tidy Tuesday is about Collegiate Sports in US. Alex Trinidad explores how revenue and expenditure are distributed in sports. He also looks at the differences in sport revenues and expenditures between men and women.\`He presented this on May 3th 2022 in the NSC-R Tidy Tuesday serie. [Here](https://nscrweb.netlify.app/posts/2022-05-03-nsc-r-tidy-tuesday/) you can find the original post [@trinidad_nsc-r_2022]
+The dataset for this Tidy Tuesday is about Collegiate Sports in US. Alex Trinidad explores how revenue and expenditure are distributed in sports. He also looks at the differences in sport revenues and expenditures between men and women.\`He presented this on May 3th 2022 in the NSC-R Tidy Tuesday serie. [Here](https://nscrweb.netlify.app/posts/2022-05-03-nsc-r-tidy-tuesday/) you can find the original post (Trinidad, 2022).
 
 ## Load packages and importing data
 

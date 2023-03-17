@@ -8,7 +8,7 @@ image: "Screenshot1.png"
 
 ## Introduction
 
-On 11 January 2022 and 25 January 2022 Sam Langton gave NSCR Tidy Tuesday presentations on the exploration and visualization of Starbuck coffee use data.In this document both presentations are combined [@langton_nsc-r_2022].
+On 11 January 2022 and 25 January 2022 Sam Langton gave NSCR Tidy Tuesday presentations on the exploration and visualization of Starbuck coffee use data.In this document both presentations are combined (Langton, 2022).
 
 ::: column-margin
 Here you can find it on the NSCR- website. Here is the [First presentation](https://nscrweb.netlify.app/posts/2022-01-11-nsc-r-tidy-tuesday/). Here is the [Second presentation](https://nscrweb.netlify.app/posts/2022-01-25-nsc-r-tidy-tuesday/)

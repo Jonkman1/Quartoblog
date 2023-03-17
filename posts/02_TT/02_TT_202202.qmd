@@ -8,7 +8,7 @@ image: "Screenshot1.png"
 
 ## Introduction
 
-The dataset for this Tidy Tuesday is about board games! Asier Moneva explores the following research questions: "What are the top 3 best-selling board games by game type?" and "How do board game sales relate to online user ratings?"[@moneva_nsc-r_2022]
+The dataset for this Tidy Tuesday is about board games! Asier Moneva explores the following research questions: "What are the top 3 best-selling board games by game type?" and "How do board game sales relate to online user ratings?" (Moneva, 2022]
 
 ## Load packages
 
@@ -255,4 +255,5 @@ df %>%
 ```
 
 ## References
+
 Moneva, A. (2022, February). *NSC-R Workshops: NSC-R Tidy Tuesday. NSCR*. Retrieved from https://nscrweb.netlify.app/posts/2022-02-08-nsc-r-tidy-tuesday

@@ -8,7 +8,7 @@ image: "Screenshot.png"
 
 ## Introduction
 
-In this meeting, Tim Verlaan explains what Sankey diagrams are, and how they can be created in R [@verlaan_nsc-rn_2022]
+In this meeting, Tim Verlaan explains what Sankey diagrams are, and how they can be created in R (Verlaan, 2022).
 
 ## Get started
 
@@ -112,4 +112,5 @@ df1 <- mtcars |>
 ```
 
 # References
+
 Verlaan, T. (2022, March). *NSC-R Workshops: NSC-R Tidy Tuesday. NSCR*. Retrieved from https://nscrweb.netlify.app/posts/2022-03-08-nsc-r-tidy-tuesday

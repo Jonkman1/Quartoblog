@@ -660,3 +660,4 @@ flows_erasmus_full_zeros |>
 For alternative methods of visualizing mobility while maintaining the geographic relations, see Andrew Wheeler's 2015 paper in Cartography and Geographic Information Science, at (behind paywall), [here](https://doi.org/10.1080/15230406.2014.890545)
 
 ## References
+Bernasco, W. (2022c, November). *NSC-R Workshops: NSC-R Tidy Tuesday. NSCR*. Retrieved from https://nscrweb.netlify.app/posts/2022-11-15-nsc-r-tidy-tuesday

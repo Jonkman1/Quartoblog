@@ -6,7 +6,6 @@ categories: [exploration, visualization]
 image: "Screenshot.png"
 ---
 
-
 ## Introduction
 
 Sports in general and football (soccer) in particular provides a sheer endless source of open data that can be explored at various levels (player, team, match, competition) and from various perspectives. In this workshop Wim Bernasco uses open data about football borrowed from a GitHub repository maintained by James Curley (James P. Curley (2016). More information [here](https://nscrweb.netlify.app/posts/2022-03-22-nsc-r-tidy-tuesday/) [@bernasco_nsc-r_2022]
@@ -621,3 +620,4 @@ spain_extended |>
 Both graphs strongly suggest that home advantage decreased over the past century.
 
 ## References
+Bernasco, W. (2022a, March). *NSC-R Workshops: NSC-R Tidy Tuesday. NSCR*. Retrieved from https://nscrweb.netlify.app/posts/2022-03-22-nsc-r-tidy-tuesday

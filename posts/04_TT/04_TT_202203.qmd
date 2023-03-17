@@ -112,3 +112,4 @@ df1 <- mtcars |>
 ```
 
 # References
+Verlaan, T. (2022, March). *NSC-R Workshops: NSC-R Tidy Tuesday. NSCR*. Retrieved from https://nscrweb.netlify.app/posts/2022-03-08-nsc-r-tidy-tuesday

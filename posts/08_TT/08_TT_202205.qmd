@@ -6,8 +6,6 @@ categories: [exploration, visualization]
 image: "Screenshot.png"
 ---
 
-
-
 ## Introduction
 
 Below you find the materials Wim Bernasco prepared for the Tidy Tuesday workshop on May 24th 2022. [Here](https://nscrweb.netlify.app/posts/2022-05-24-nsc-r-tidy-tuesday/) is the original link to this workshop and the materials. You find links to two small datasets. One (`crime.csv`) contains the number of police recorded residential burglaries, bike thefts and assaults in the Netherlands per month between January 2012 and April 2022. The other (`population.csv`) contains the number of inhabitants of the Netherlands during the same period, per first day of the month. In the workshop he tried to make sense of long-term temporal trends in these crimes, and hopefully also make useful statements about how things changed when the COVID pandemic arrived around February 2020. He worked out eight steps in the analysis [@bernasco_nsc-r_2022-2].
@@ -491,3 +489,4 @@ To make senseYou can see that there is an overall decline for each crime type (m
 For more rigorous statistical tests, we would need to dive into time series analysis.
 
 ## References
+Bernasco, W. (2022b, May). *NSC-R Workshops: NSC-R Tidy Tuesday. NSCR*. Retrieved from https://nscrweb.netlify.app/posts/2022-05-24-nsc-r-tidy-tuesday

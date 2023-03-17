@@ -6,7 +6,6 @@ categories: [exploration, visualization]
 image: "Screenshot.png"
 ---
 
-
 ## Introduction
 
 In this session, Sam Langton demonstrated long to wide (and wide to long) transformations using functions available in the tidyr package using data from the London Fire Brigade [@s_langton_nsc-r_2022-1].
@@ -121,3 +120,4 @@ rm(fire_clean_df, fire_df, tt_df, fire_wards_df)
 ```
 
 ## References
+Langton, S. (2022, April). *NSC-R Workshops: NSC-R Tidy Tuesday. NSCR*. Retrieved from https://nscrweb.netlify.app/posts/2022-01-25-nsc-r-tidy-tuesday/

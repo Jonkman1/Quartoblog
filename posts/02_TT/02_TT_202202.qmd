@@ -1,6 +1,6 @@
 ---
 title: "Research of Board Games"
-author: "Asier Moreva"
+author: "Asier Moneva"
 date: "2022-02-08"
 categories: [exploration, visualization]
 image: "Screenshot1.png"
@@ -255,3 +255,4 @@ df %>%
 ```
 
 ## References
+Moneva, A. (2022, February). *NSC-R Workshops: NSC-R Tidy Tuesday. NSCR*. Retrieved from https://nscrweb.netlify.app/posts/2022-02-08-nsc-r-tidy-tuesday

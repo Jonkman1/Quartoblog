@@ -1,5 +1,5 @@
 ---
-title: "BlogProb"
+title: "NSC-R Tidy Tuesday workshops"
 listing:
   contents: posts
   sort: "date desc"
@@ -9,4 +9,5 @@ listing:
   filter-ui: false
 page-layout: full
 title-block-banner: true
+bibliography: referencestt.bib
 ---

@@ -9,7 +9,7 @@
 <meta name="author" content="Sam Langton">
 <meta name="dcterms.date" content="2022-01-22">
 
-<title>BlogProb - Exploration and visualization of Starbuck coffee data</title>
+<title>Quartoblog - Exploration and visualization of Starbuck coffee data</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -85,6 +85,25 @@ code span.st { color: #4070a0; } /* String */
 code span.va { color: #19177c; } /* Variable */
 code span.vs { color: #4070a0; } /* VerbatimString */
 code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
 </style>
 
 
@@ -125,7 +144,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 }</script>
 
 
-<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../../styles.scss">
 </head>
 
 <body class="nav-fixed">
@@ -136,7 +155,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
     <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">BlogProb</span>
+    <span class="navbar-title">Quartoblog</span>
     </a>
   </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -211,7 +230,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <section id="introduction" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>On 11 January 2022 and 25 January 2022 Sam Langton gave NSCR Tidy Tuesday presentations on the exploration and visualization of Starbuck coffee use data.In this document both presentations are combined <span class="citation" data-cites="langton_nsc-r_2022">[@langton_nsc-r_2022]</span>.</p>
+<p>On 11 January 2022 and 25 January 2022 Sam Langton gave NSCR Tidy Tuesday presentations on the exploration and visualization of Starbuck coffee use data.In this document both presentations are combined <span class="citation" data-cites="langton_nsc-r_2022">(<a href="#ref-langton_nsc-r_2022" role="doc-biblioref">Langton 2022</a>)</span>.</p>
 
 <div class="no-row-height column-margin column-container"><div class="">
 <p>Here you can find it on the NSCR- website. Here is the <a href="https://nscrweb.netlify.app/posts/2022-01-11-nsc-r-tidy-tuesday/">First presentation</a>. Here is the <a href="https://nscrweb.netlify.app/posts/2022-01-25-nsc-r-tidy-tuesday/">Second presentation</a></p>
@@ -537,12 +556,17 @@ $ caffeine_mg     &lt;dbl&gt; 130, 193, 260, 340, 15, 20, 25, 30, 155, 235, 310,
 </div>
 </section>
 <section id="reference" class="level2">
-<h2 class="anchored" data-anchor-id="reference">Reference</h2>
+
+
 
 
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">Reference</h2><div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-langton_nsc-r_2022" class="csl-entry" role="doc-biblioentry">
+Langton, S. 2022. <span>“<span>NSC</span>-<span>R</span> <span>Workshops</span>: <span>NSC</span>-<span>R</span> <span>Tidy</span> <span>Tuesday</span>.”</span> NSCR. <a href="https://nscrweb.netlify.app/posts/2022-01-25-nsc-r-tidy-tuesday/">https://nscrweb.netlify.app/posts/2022-01-25-nsc-r-tidy-tuesday/</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

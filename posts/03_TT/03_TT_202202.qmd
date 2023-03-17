@@ -4,6 +4,7 @@ author: "Alex Trinidad"
 date: "2022-02-22"
 categories: [exploration, visualization]
 image: "Screenshot.png"
+bibliography: referencestt.bib
 ---
 
 ## Introduction

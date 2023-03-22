@@ -14,8 +14,10 @@ The dataset for this Tidy Tuesday is about animal rescues! Alex Trinidad explore
 
 Install TT package (if necessary)
 
-    install.packages("tidytuesdayR")
-    install.packages("tidyverse")
+```         
+install.packages("tidytuesdayR")
+install.packages("tidyverse")
+```
 
 ```{r}
 #| warning: false
@@ -272,7 +274,9 @@ missingdates <- anti_join(compdates, perday)
 
 Add missing dates to our data set.
 
-    fulldates <- rbind(perday, missingdates) #
+```         
+fulldates <- rbind(perday, missingdates) #
+```
 
 This will give an error because we need the same arguments We need the same arguments
 

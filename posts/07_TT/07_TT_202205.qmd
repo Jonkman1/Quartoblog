@@ -45,7 +45,9 @@ sportdt <- ttdata[[1]]
 
 Alternative
 
-    sportdt <- ttdata$sports
+```         
+sportdt <- ttdata$sports
+```
 
 ## Data Exploration
 
@@ -445,7 +447,9 @@ myselection %>%
 
 If necessary install RColorBrewer package
 
-    # install.packages(RColorBrewer) 
+```         
+# install.packages(RColorBrewer) 
+```
 
 ```{r}
 #| warning: false
@@ -602,7 +606,9 @@ plotmeandifexp_pa <- myselection %>%
 
 If necessary install package
 
-    install.packages("gridExtra")
+```         
+install.packages("gridExtra")
+```
 
 Load package
 

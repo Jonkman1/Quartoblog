@@ -8,7 +8,7 @@ image: "Screenshot1.png"
 
 ## Introduction
 
-The dataset for this Tidy Tuesday is about board games! Asier Moneva explores the following research questions: "What are the top 3 best-selling board games by game type?" and "How do board game sales relate to online user ratings?" (Moneva, 2022]
+The dataset for this Tidy Tuesday is about board games! Asier Moneva explores the following research questions: "What are the top 3 best-selling board games by game type?" and "How do board game sales relate to online user ratings?" (Moneva, 2022\]
 
 ## Load packages
 

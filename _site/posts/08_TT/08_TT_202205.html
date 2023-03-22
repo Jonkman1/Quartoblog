@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.269">
+<meta name="generator" content="quarto-1.2.335">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -211,7 +211,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <section id="introduction" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>Below you find the materials Wim Bernasco prepared for the Tidy Tuesday workshop on May 24th 2022. <a href="https://nscrweb.netlify.app/posts/2022-05-24-nsc-r-tidy-tuesday/">Here</a> is the original link to this workshop and the materials. You find links to two small datasets. One (<code>crime.csv</code>) contains the number of police recorded residential burglaries, bike thefts and assaults in the Netherlands per month between January 2012 and April 2022. The other (<code>population.csv</code>) contains the number of inhabitants of the Netherlands during the same period, per first day of the month. In the workshop he tried to make sense of long-term temporal trends in these crimes, and hopefully also make useful statements about how things changed when the COVID pandemic arrived around February 2020. He worked out eight steps in the analysis <span class="citation" data-cites="bernasco_nsc-r_2022-2">[@bernasco_nsc-r_2022-2]</span>.</p>
+<p>Below you find the materials Wim Bernasco prepared for the Tidy Tuesday workshop on May 24th 2022. <a href="https://nscrweb.netlify.app/posts/2022-05-24-nsc-r-tidy-tuesday/">Here</a> is the original link to this workshop and the materials. You find links to two small datasets. One (<code>crime.csv</code>) contains the number of police recorded residential burglaries, bike thefts and assaults in the Netherlands per month between January 2012 and April 2022. The other (<code>population.csv</code>) contains the number of inhabitants of the Netherlands during the same period, per first day of the month. In the workshop he tried to make sense of long-term temporal trends in these crimes, and hopefully also make useful statements about how things changed when the COVID pandemic arrived around February 2020. He worked out eight steps in the analysis (Bernasco, 2022).</p>
 <div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="">Acknowledgement: Franziska Yasrebi-de Kom corrected errors and provided fruitfull suggestions for improvement of the first draft.</span></div></div>
 </section>
 <section id="start-up" class="level2">
@@ -281,12 +281,12 @@ $ crime_type &lt;chr&gt; "burglary", "burglary", "burglary", "burglary", "burgla
 <pre><code># A tibble: 6 x 3
   date       frequency crime_type
   &lt;date&gt;         &lt;dbl&gt; &lt;chr&gt;     
-1 2019-01-01      3281 assault   
-2 2014-03-01     10480 bike theft
-3 2019-07-01      7794 bike theft
-4 2014-09-01      4524 burglary  
-5 2021-01-01      2173 burglary  
-6 2019-11-01      3412 assault   </code></pre>
+1 2017-09-01      3165 burglary  
+2 2016-03-01      3689 assault   
+3 2018-04-01      6456 bike theft
+4 2021-03-01      2733 assault   
+5 2019-08-01      7221 bike theft
+6 2012-05-01      5177 assault   </code></pre>
 </div>
 </div>
 <p>Frequency table of crime types</p>
@@ -335,12 +335,12 @@ $ population &lt;dbl&gt; 16730348, 16731280, 16735690, 16737631, 16739764, 16742
 <pre><code># A tibble: 6 x 2
   date       population
   &lt;date&gt;          &lt;dbl&gt;
-1 2017-11-01   17172903
-2 2013-01-01   16779575
-3 2020-11-01   17472440
-4 2012-04-01   16737631
-5 2016-08-01   17022674
-6 2020-02-01   17413971</code></pre>
+1 2013-08-01   16795289
+2 2020-03-01   17423863
+3 2019-11-01   17399364
+4 2017-01-01   17081507
+5 2012-08-01   16746558
+6 2014-12-01   16900158</code></pre>
 </div>
 </div>
 </section>
@@ -696,6 +696,7 @@ Let’s look at burglary and start with making a plot that highlights the distin
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
+<p>Bernasco, W. (2022b, May). <em>NSC-R Workshops: NSC-R Tidy Tuesday. NSCR</em>. Retrieved from https://nscrweb.netlify.app/posts/2022-05-24-nsc-r-tidy-tuesday</p>
 
 
 </section>

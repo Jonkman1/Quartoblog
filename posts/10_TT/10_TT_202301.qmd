@@ -8,7 +8,7 @@ image: "Screenshot.png"
 
 ## Introduction
 
-In this tutorial we will do some descriptive analysis on a salary survey in different countries and some background variables of the participants (Yasrebi-de Kom, 2023].
+In this tutorial we will do some descriptive analysis on a salary survey in different countries and some background variables of the participants (Yasrebi-de Kom, 2023\].
 
 ::: column-margin
 Thank you to Wim Bernasco who provided detailed feedback on the script and supervision on preparing this session.
@@ -191,11 +191,15 @@ Put it in a table directly.
 
 You can also write it to Excel if this is easier for you. The info in quotation marks has to be changed to a folder that fits your set-up. Illustrate in Excel: data -\> text to columns.
 
-    write_csv(age,"C:/Users/FY125/Desktop/temp/Own tidy tuesday/age.csv") 
+```         
+write_csv(age,"C:/Users/FY125/Desktop/temp/Own tidy tuesday/age.csv") 
+```
 
 Maybe this one works for you.
 
-    write_delim(age,"C:/Users/FY125/Desktop/temp/Own tidy tuesday/age_delim.csv", delim = ";") 
+```         
+write_delim(age,"C:/Users/FY125/Desktop/temp/Own tidy tuesday/age_delim.csv", delim = ";") 
+```
 
 Then you automatically get a nice csv. It depends on windows installation which of the two options work
 
@@ -390,13 +394,15 @@ df  |> filter(annual_salary < 300000) |> pull(annual_salary) |> hist()
 
 If you prefer using `ggplot` you can do it like this.
 
-    # not working for me
-    #| label: fig-ggplot
-    #| fig-cap: "Plotting distributions annual salary using ggplot"
-    df |>
-      filter(annual_salary < 300000) 
-      ggplot() +
-      geom_histogram(aes(x = annual_salary), color = "black", fill="white", binwidth=5000)
+```         
+# not working for me
+#| label: fig-ggplot
+#| fig-cap: "Plotting distributions annual salary using ggplot"
+df |>
+  filter(annual_salary < 300000) 
+  ggplot() +
+  geom_histogram(aes(x = annual_salary), color = "black", fill="white", binwidth=5000)
+```
 
 ### Question 8: Can we get a salary independent of currency?
 

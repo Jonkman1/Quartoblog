@@ -8,7 +8,7 @@ image: "Screenshot.png"
 
 ## Introduction
 
-Sports in general and football (soccer) in particular provides a sheer endless source of open data that can be explored at various levels (player, team, match, competition) and from various perspectives. In this workshop Wim Bernasco uses open data about football borrowed from a GitHub repository maintained by James Curley (James P. Curley (2016). More information [here](https://nscrweb.netlify.app/posts/2022-03-22-nsc-r-tidy-tuesday/)(Bernasco, 2022). 
+Sports in general and football (soccer) in particular provides a sheer endless source of open data that can be explored at various levels (player, team, match, competition) and from various perspectives. In this workshop Wim Bernasco uses open data about football borrowed from a GitHub repository maintained by James Curley (James P. Curley (2016). More information [here](https://nscrweb.netlify.app/posts/2022-03-22-nsc-r-tidy-tuesday/)(Bernasco, 2022).
 
 \[1\^\]Wim Bernasco, Franziska Yasrebi-de Kom provided fertile suggestions on code and comments
 
@@ -16,11 +16,13 @@ Sports in general and football (soccer) in particular provides a sheer endless s
 
 Install packages, the admin required to get going
 
-    #install.packages('tidyverse')
-        #install.packages('lubridate')
-        #install.packages('devtools')
-        #library(devtools)
-        #install_github("jalapic/engsoccerdata")
+```         
+#install.packages('tidyverse')
+    #install.packages('lubridate')
+    #install.packages('devtools')
+    #library(devtools)
+    #install_github("jalapic/engsoccerdata")
+```
 
 Load libraries
 
@@ -72,15 +74,19 @@ spain |> glimpse()
 
 You should see something like this:
 
-    # Rows: 25,435
-    # Columns: 12
-    # $ Date    <date> 1929-02-10, 1929-02-10, 1929-02-10, 1929-02-10, 1929-02-12, 1929-02-~
-    # $ Season  <dbl> 1928, 1928, 1928, 1928, 1928, 1928, 1928, 1928, 1928, 1928, 1928, 192~
-    # $ home    <chr> "Arenas de Getxo"
+```         
+# Rows: 25,435
+# Columns: 12
+# $ Date    <date> 1929-02-10, 1929-02-10, 1929-02-10, 1929-02-10, 1929-02-12, 1929-02-~
+# $ Season  <dbl> 1928, 1928, 1928, 1928, 1928, 1928, 1928, 1928, 1928, 1928, 1928, 192~
+# $ home    <chr> "Arenas de Getxo"
+```
 
 This is much more intuitive, but it only works interactively/ Try it out yourself, but do not include the `View` function in your script
 
-    spain |> View()
+```         
+spain |> View()
+```
 
 Alternatively, a quick look at the first 10 rows.
 
@@ -321,10 +327,12 @@ series <- bind_rows(spain_series, england_series)
 
 Take a look yourself (note that England started 1888, Spain in 1929)
 
-    series |> 
-      arrange(year, country) |> 
-      View()
-      
+```         
+series |> 
+  arrange(year, country) |> 
+  View()
+  
+```
 
 Plot development in Spain and England in the same graph
 
@@ -508,7 +516,9 @@ table(spain_extended$result_discrete)
 
 If you prefer the classic table, the below will NOT work because there must always be a function after the pipe symbol (`|>`) as the pipe symbol means "whatever" is returned by the function before `|>` will become the first argument of the function after the `|>`.And 'result_discrete' is not a function, but an object.
 
-    spain_extended |> result_discrete |> table() 
+```         
+spain_extended |> result_discrete |> table() 
+```
 
 But this will work, because pull is a function that returns the variable `result_discrete` as a vector):
 

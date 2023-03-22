@@ -40,9 +40,11 @@ fire_df <- tt_df$animal_rescues
 
 Save for train working.
 
-    Harrie: don't know what this means
-    save.image("data/train_working.Rdata")
-    load("data/train_working.Rdata")
+```         
+Harrie: don't know what this means
+save.image("data/train_working.Rdata")
+load("data/train_working.Rdata")
+```
 
 Basic cleaning.
 

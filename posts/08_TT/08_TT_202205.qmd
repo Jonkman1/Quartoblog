@@ -20,7 +20,9 @@ You will normally load libraries here at the top of your script, but in this exa
 
 If your project is reasonably small and all files (data, scripts, and output files) can be stored in a single folder without creating confusion, setting a working folder is a good idea. All reading from and writing to disk will be done from and to this folder.
 
-    setwd("X:/YYY/ZZZ") # for example: setwd("C:/Users/bernasco/crime_trends_NL")
+```         
+setwd("X:/YYY/ZZZ") # for example: setwd("C:/Users/bernasco/crime_trends_NL")
+```
 
 Note: In this script I will use the new `|>` piping symbol. It is equivalent to `%>%` but has two advantages, which are\
 - (1) it is shorter (2 instead of 3 symbols), and\
@@ -292,8 +294,10 @@ crime_population_corrected |>
 
 You got this warning:
 
-    #    Warning message:
-    #    Removed 3 row(s) containing missing values    
+```         
+#    Warning message:
+#    Removed 3 row(s) containing missing values    
+```
 
 So where are these three missing values?
 
